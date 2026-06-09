@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-06-08 17:00:46",
-  "generated_at_utc": "2026-06-08 17:00:57",
+  "generated_at_local": "2026-06-09 15:48:59",
+  "generated_at_utc": "2026-06-09 15:49:10",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/06/07",
-    "maxdate": "2026/06/08"
+    "mindate": "2026/06/08",
+    "maxdate": "2026/06/09"
   },
   "ranking": "research_relevance_score(topic_priority + research_signal + source_metadata + recency + cross_domain)",
   "signal_ontology": {
@@ -151,97 +151,104 @@
     {
       "label": "Pandemic preparedness & biosurveillance",
       "query": "(((\"pandemic preparedness\" OR biosurveillance OR \"pathogen surveillance\") AND (genomics OR sequencing)) OR ((\"early warning\" OR \"sentinel surveillance\") AND (metagenomics OR sequencing))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 0,
-      "items": []
-    },
-    {
-      "label": "Atlases, compendia, reference resources",
-      "query": "(((atlas OR database OR compendium OR \"reference catalog\" OR resource) AND (virome OR microbiome OR pathogen)) OR ((\"large-scale\" OR global) AND (virome OR microbiome) AND (metadata OR harmonization))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 0,
-      "items": []
-    },
-    {
-      "label": "Metagenomics benchmarking & pipelines",
-      "query": "((metagenomics AND (benchmark* OR pipeline OR \"best practices\" OR reproducible OR workflow)) OR ((Kraken2 OR MetaPhlAn OR Bracken OR Centrifuge OR Kaiju) AND (benchmark* OR evaluation))) AND (benchmark* OR workflow OR pipeline OR Snakemake OR Nextflow OR WDL) NOT (case report OR randomized OR psychology)",
-      "count": 2,
+      "count": 1,
       "items": [
         {
-          "pmid": "42251775",
-          "title": "Four lineages of adenoviruses identified in raptors sampled in Spain.",
-          "authors": "Shawnpreet Sahnan, Virginia Morandini, Miguel Ferrer, Alejandro Onrubia, Carlos Torralvo, Győző L Kaján",
-          "journal": "Virology",
-          "pubdate": "2026-06-07",
-          "pubdate_utc": "2026-06-07T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42251775/",
-          "abstract_snippet": "Adenoviruses infect a wide range of vertebrate species from fish to humans, including an especially large number of avian species. This study utilized viral metagenomic workflow coupled with targeted PCR to identify and characterize adenoviruses from cloacal s…",
-          "score": 4.235,
+          "pmid": "42258549",
+          "title": "Detection and genetic characterization of Tembusu virus and other flaviviruses from mosquitoes in Lao PDR.",
+          "authors": "Chittaphone Vanhnollat, Somsanith Chonephetsarath, Somphavanh Somlor, Veaky Vungkyly, Tiger Soulaphy, Sopha Vongsanga",
+          "journal": "PloS one",
+          "pubdate": "2026-06-08",
+          "pubdate_utc": "2026-06-08T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42258549/",
+          "abstract_snippet": "Lao People's Democratic Republic (Lao PDR), located in Southeast Asia and known for its rich biodiversity, is part of a region recognized as a hotspot for emerging and re-emerging infectious diseases. Among flaviviruses, dengue virus (DENV) and Japanese enceph…",
+          "score": 13.036,
           "score_components": {
-            "theme_priority": 1.05,
-            "research_signal": 1.7,
+            "theme_priority": 1.15,
+            "research_signal": 8.9,
             "venue": 0.0,
-            "recency": 1.485,
-            "cross_domain": 0.0
-          },
-          "signal_components": {
-            "methods": 1.7
-          },
-          "signal_classes": [
-            "Methods"
-          ],
-          "theme": "Metagenomics benchmarking & pipelines"
-        },
-        {
-          "pmid": "42251704",
-          "title": "Structural insights into predicted thermophilic GH5 cellulases for industrial lignocellulose bioconversion.",
-          "authors": "Pablo Daniel Farace, Rubén Marrero Diaz de Villegas, María Laura Mon, Marcelo A Soria, Paola M Talia",
-          "journal": "Journal of biomolecular structure & dynamics",
-          "pubdate": "2026-06-07",
-          "pubdate_utc": "2026-06-07T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42251704/",
-          "abstract_snippet": "Lignocellulosic biomass can be converted into biofuels and other valuable bioproducts, but it must first undergo physicochemical and enzymatic degradation. Among the various enzymes involved in lignocellulose degradation, thermophilic glycoside hydrolase famil…",
-          "score": 4.235,
-          "score_components": {
-            "theme_priority": 1.05,
-            "research_signal": 1.7,
-            "venue": 0.0,
-            "recency": 1.485,
-            "cross_domain": 0.0
-          },
-          "signal_components": {
-            "methods": 1.7
-          },
-          "signal_classes": [
-            "Methods"
-          ],
-          "theme": "Metagenomics benchmarking & pipelines"
-        }
-      ]
-    },
-    {
-      "label": "ML for evolution & pathogens",
-      "query": "(((\"machine learning\" OR \"deep learning\" OR transformer) AND (virus OR pathogen OR evolution OR phylogeny)) OR ((\"protein language model\" OR ESM) AND (mutation OR evolution OR fitness))) AND (\"machine learning\" OR \"deep learning\" OR transformer OR \"foundation model\" OR \"protein language model\" OR ESM) NOT (case report OR randomized OR psychology)",
-      "count": 6,
-      "items": [
-        {
-          "pmid": "42223102",
-          "title": "Machine learning accelerated nonadiabatic molecular dynamics of defect-mediated recombination in alkali metal passivated Cu2ZnSnS4.",
-          "authors": "Zhaosheng Zhang, Qing Xiong, Yanbo Liu, Jiadong Liu, Wutong Zhang",
-          "journal": "The Journal of chemical physics",
-          "pubdate": "2026-06-07",
-          "pubdate_utc": "2026-06-07T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42223102/",
-          "abstract_snippet": "Nonradiative electron-hole recombination mediated by defects is a critical loss mechanism in semiconductors and requires computationally demanding nonadiabatic (NA) molecular dynamics simulations. In this work, we develop a machine learning-accelerated framewo…",
-          "score": 9.985,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 6.0,
-            "venue": 0.0,
-            "recency": 1.485,
+            "recency": 1.486,
             "cross_domain": 1.5
           },
           "signal_components": {
             "viral_evolution": 2.6,
+            "metagenomics_surveillance": 2.4,
+            "methods": 1.7,
+            "emerging_threat": 2.2
+          },
+          "signal_classes": [
+            "Viral evolution",
+            "Metagenomics / surveillance",
+            "Methods",
+            "Emerging threat"
+          ],
+          "theme": "Pandemic preparedness & biosurveillance"
+        }
+      ]
+    },
+    {
+      "label": "Atlases, compendia, reference resources",
+      "query": "(((atlas OR database OR compendium OR \"reference catalog\" OR resource) AND (virome OR microbiome OR pathogen)) OR ((\"large-scale\" OR global) AND (virome OR microbiome) AND (metadata OR harmonization))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
+      "count": 1,
+      "items": [
+        {
+          "pmid": "42260162",
+          "title": "Unraveling hidden species diversity of talpid moles using phylogenomics and skull-based deep learning.",
+          "authors": "Kai He, Anlong Li, Quentin Martinez, Xiaoyun Wang, Zhongzheng Chen, Shuiwang He",
+          "journal": "Communications biology",
+          "pubdate": "2026-06-08",
+          "pubdate_utc": "2026-06-08T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42260162/",
+          "abstract_snippet": "The sky islands of Southwest China are biodiversity hotspots, where geographic isolation has led to allopatric diversification and cryptic speciation. Here, we integrated phylogenomics, molecular species delimitation, and morphometric analyses to assess the ph…",
+          "score": 5.986,
+          "score_components": {
+            "theme_priority": 1.1,
+            "research_signal": 3.4,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
             "methods": 3.4
+          },
+          "signal_classes": [
+            "Methods"
+          ],
+          "theme": "Atlases, compendia, reference resources"
+        }
+      ]
+    },
+    {
+      "label": "Metagenomics benchmarking & pipelines",
+      "query": "((metagenomics AND (benchmark* OR pipeline OR \"best practices\" OR reproducible OR workflow)) OR ((Kraken2 OR MetaPhlAn OR Bracken OR Centrifuge OR Kaiju) AND (benchmark* OR evaluation))) AND (benchmark* OR workflow OR pipeline OR Snakemake OR Nextflow OR WDL) NOT (case report OR randomized OR psychology)",
+      "count": 0,
+      "items": []
+    },
+    {
+      "label": "ML for evolution & pathogens",
+      "query": "(((\"machine learning\" OR \"deep learning\" OR transformer) AND (virus OR pathogen OR evolution OR phylogeny)) OR ((\"protein language model\" OR ESM) AND (mutation OR evolution OR fitness))) AND (\"machine learning\" OR \"deep learning\" OR transformer OR \"foundation model\" OR \"protein language model\" OR ESM) NOT (case report OR randomized OR psychology)",
+      "count": 9,
+      "items": [
+        {
+          "pmid": "42258531",
+          "title": "Machine learning-driven optimization of specific, compact, and efficient base editors via single-round diversification.",
+          "authors": "Mykyta Ielanskyi, Meng Wang, Lewis Scott, Lila Rieber, Stephanie Merrett, Johannes Schimunek",
+          "journal": "Nucleic acids research",
+          "pubdate": "2026-06-08",
+          "pubdate_utc": "2026-06-08T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42258531/",
+          "abstract_snippet": "Base editing shows great potential in research and clinical applications. Current iterations of the deaminases used to create precise single-nucleotide changes via base editing exhibit undesirable effects, including off-targeting, off-base editing, and bystand…",
+          "score": 8.286,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 4.3,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 1.5
+          },
+          "signal_components": {
+            "viral_evolution": 2.6,
+            "methods": 1.7
           },
           "signal_classes": [
             "Viral evolution",
@@ -258,12 +265,12 @@
           "pubdate_utc": "2026-06-08T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42253053/",
           "abstract_snippet": "Salt-bridge conservation has traditionally been evaluated at the primary sequence level, leaving the persistence of three-dimensional interaction sites across homologous families largely unexplored. In this study, we developed a systematic family-level structu…",
-          "score": 8.294,
+          "score": 8.286,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 4.3,
             "venue": 0.0,
-            "recency": 1.494,
+            "recency": 1.486,
             "cross_domain": 1.5
           },
           "signal_components": {
@@ -277,6 +284,81 @@
           "theme": "ML for evolution & pathogens"
         },
         {
+          "pmid": "42260162",
+          "title": "Unraveling hidden species diversity of talpid moles using phylogenomics and skull-based deep learning.",
+          "authors": "Kai He, Anlong Li, Quentin Martinez, Xiaoyun Wang, Zhongzheng Chen, Shuiwang He",
+          "journal": "Communications biology",
+          "pubdate": "2026-06-08",
+          "pubdate_utc": "2026-06-08T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42260162/",
+          "abstract_snippet": "The sky islands of Southwest China are biodiversity hotspots, where geographic isolation has led to allopatric diversification and cryptic speciation. Here, we integrated phylogenomics, molecular species delimitation, and morphometric analyses to assess the ph…",
+          "score": 5.886,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 3.4,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 3.4
+          },
+          "signal_classes": [
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42259648",
+          "title": "Digital Hydrogel Fluorescent-Enhancing Microspheres via CRISPR/Cas12a for Amplification-Free Relative Quantification of Nucleic Acids.",
+          "authors": "Xueer Yin, Qiangyuan Xiong, Taowei Shu, Sichen Yan, Jun Zhao, Zhenyu Wang",
+          "journal": "Analytical chemistry",
+          "pubdate": "2026-06-08",
+          "pubdate_utc": "2026-06-08T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42259648/",
+          "abstract_snippet": "CRISPR/Cas systems hold great promise for molecular diagnostics, but their amplification-free applications are hampered by weak signals and poor quantification. Here, we developed CrisprDEM, a CRISPR/Cas12a-based digital hydrogel fluorescent-enhancing microsph…",
+          "score": 4.186,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 1.7,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 1.7
+          },
+          "signal_classes": [
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42259034",
+          "title": "From green to gold: Synergistic enhancement of residents' well-being and ecological quality under China's \"two mountains\" pilots zones.",
+          "authors": "Zhaopu Liu, Haocheng Wang, Yu Lai, Liuyang Yao",
+          "journal": "Journal of environmental management",
+          "pubdate": "2026-06-08",
+          "pubdate_utc": "2026-06-08T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42259034/",
+          "abstract_snippet": "Achieving a harmonious symbiosis between economic prosperity and environmental sustainability remains a defining challenge for global sustainable development. This study investigates China's pioneering \"Two Mountains\" practice pilot zones (TMPZ) as an institut…",
+          "score": 4.186,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 1.7,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 1.7
+          },
+          "signal_classes": [
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
           "pmid": "42252904",
           "title": "Progress of Non-Aqueous Liquid Electrolytes for High-Voltage Sodium-Ion Batteries.",
           "authors": "Honglin Hu, Jiahan Fu, Sheng Li, Chaofan Luo, Kai Huo, Xiaoyu Fu",
@@ -285,12 +367,12 @@
           "pubdate_utc": "2026-06-08T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42252904/",
           "abstract_snippet": "Due to their significant resource-economic advantages, sodium-ion batteries are gradually becoming an important alternative to lithium-ion batteries in large-scale energy storage. However, their performance under high-voltage operation (>4.0 V vs. Na+/Na) is l…",
-          "score": 4.194,
+          "score": 4.186,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 1.7,
             "venue": 0.0,
-            "recency": 1.494,
+            "recency": 1.486,
             "cross_domain": 0.0
           },
           "signal_components": {
@@ -310,37 +392,12 @@
           "pubdate_utc": "2026-06-08T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42252408/",
           "abstract_snippet": "Pecan scab (Venturia effusa) is a devastating fungal disease affecting commercial pecan production. Developing resistant cultivars remains the most sustainable strategy, but this has been hindered by limited mechanistic understanding of resistance and the pres…",
-          "score": 4.194,
+          "score": 4.186,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 1.7,
             "venue": 0.0,
-            "recency": 1.494,
-            "cross_domain": 0.0
-          },
-          "signal_components": {
-            "methods": 1.7
-          },
-          "signal_classes": [
-            "Methods"
-          ],
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "42252321",
-          "title": "Machine learning- assisted remaining useful lifetime prediction of power electronic converters.",
-          "authors": "Hussain Sayed, Harish S Krishnamoorthy",
-          "journal": "Scientific reports",
-          "pubdate": "2026-06-07",
-          "pubdate_utc": "2026-06-07T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42252321/",
-          "abstract_snippet": "This paper presents a methodology for the remaining useful life (RUL) prediction in power electronic converters based on the health monitoring of semiconductor devices and DC capacitor(s). The primary components considered are Gallium Nitride High Electron Mob…",
-          "score": 4.185,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 1.7,
-            "venue": 0.0,
-            "recency": 1.485,
+            "recency": 1.486,
             "cross_domain": 0.0
           },
           "signal_components": {
@@ -360,12 +417,33 @@
           "pubdate_utc": "2026-06-08T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42257736/",
           "abstract_snippet": "Island coastal aquifers, though spatially limited, sustain key ecosystem functions linked to locally critical provisioning, maintenance and cultural ecosystem services. These functions are largely dependent on the presence of highly adapted biological communit…",
-          "score": 2.494,
+          "score": 2.486,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 0.0,
             "venue": 0.0,
-            "recency": 1.494,
+            "recency": 1.486,
+            "cross_domain": 0.0
+          },
+          "signal_components": {},
+          "signal_classes": [],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42207717",
+          "title": "Tools For Building Artificial Biological Nanostructures.",
+          "authors": "Thomas S Bradford, Sarah Hutchings, Jonathon D Liston, Zuzanna Pakosz-Stepien, Artemis Sanderson, Ahmed Shaukat",
+          "journal": "ACS nano",
+          "pubdate": "2026-05-28",
+          "pubdate_utc": "2026-05-28T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42207717/",
+          "abstract_snippet": "Biological nanostructures and nanomachines encompass a wide range of natural assemblies from the smallest prokaryotes to viruses, enzymes, and subcellular compartments. Their capabilities are impressive, including replication, locomotion, and catalysis. To be …",
+          "score": 2.394,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 0.0,
+            "venue": 0.0,
+            "recency": 1.394,
             "cross_domain": 0.0
           },
           "signal_components": {},

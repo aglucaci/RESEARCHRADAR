@@ -1,6 +1,6 @@
 # ETHER scientific literature radar
 
-**Updated:** 2026-06-08 17:00:46  
+**Updated:** 2026-06-09 15:48:59  
 **Window:** last 1 day(s)  
 **Ranking:** Research Relevance Score (topic priority + research signals + source metadata + recency + cross-domain bridge)
 
@@ -29,55 +29,68 @@ _No new items in this window._
 
 _No new items in this window._
 
-## Pandemic preparedness & biosurveillance — 0 result(s)
+## Pandemic preparedness & biosurveillance — 1 result(s)
+
+- **[Detection and genetic characterization of Tembusu virus and other flaviviruses from mosquitoes in Lao PDR.](https://pubmed.ncbi.nlm.nih.gov/42258549/)**  
+  Chittaphone Vanhnollat, Somsanith Chonephetsarath, Somphavanh Somlor, Veaky Vungkyly, Tiger Soulaphy, Sopha Vongsanga · PloS one · 2026-06-08  
+  _Research Relevance Score:_ `13.036`  
+  _Signals:_ Viral evolution, Metagenomics / surveillance, Methods, Emerging threat  
+  _Lao People's Democratic Republic (Lao PDR), located in Southeast Asia and known for its rich biodiversity, is part of a region recognized as a hotspot for emerging and re-emerging infectious diseases. Among flaviviruses, dengue virus (DENV) and Japanese enceph…_
+
+## Atlases, compendia, reference resources — 1 result(s)
+
+- **[Unraveling hidden species diversity of talpid moles using phylogenomics and skull-based deep learning.](https://pubmed.ncbi.nlm.nih.gov/42260162/)**  
+  Kai He, Anlong Li, Quentin Martinez, Xiaoyun Wang, Zhongzheng Chen, Shuiwang He · Communications biology · 2026-06-08  
+  _Research Relevance Score:_ `5.986`  
+  _Signals:_ Methods  
+  _The sky islands of Southwest China are biodiversity hotspots, where geographic isolation has led to allopatric diversification and cryptic speciation. Here, we integrated phylogenomics, molecular species delimitation, and morphometric analyses to assess the ph…_
+
+## Metagenomics benchmarking & pipelines — 0 result(s)
 
 _No new items in this window._
 
-## Atlases, compendia, reference resources — 0 result(s)
+## ML for evolution & pathogens — 9 result(s)
 
-_No new items in this window._
-
-## Metagenomics benchmarking & pipelines — 2 result(s)
-
-- **[Four lineages of adenoviruses identified in raptors sampled in Spain.](https://pubmed.ncbi.nlm.nih.gov/42251775/)**  
-  Shawnpreet Sahnan, Virginia Morandini, Miguel Ferrer, Alejandro Onrubia, Carlos Torralvo, Győző L Kaján · Virology · 2026-06-07  
-  _Research Relevance Score:_ `4.235`  
-  _Signals:_ Methods  
-  _Adenoviruses infect a wide range of vertebrate species from fish to humans, including an especially large number of avian species. This study utilized viral metagenomic workflow coupled with targeted PCR to identify and characterize adenoviruses from cloacal s…_
-- **[Structural insights into predicted thermophilic GH5 cellulases for industrial lignocellulose bioconversion.](https://pubmed.ncbi.nlm.nih.gov/42251704/)**  
-  Pablo Daniel Farace, Rubén Marrero Diaz de Villegas, María Laura Mon, Marcelo A Soria, Paola M Talia · Journal of biomolecular structure & dynamics · 2026-06-07  
-  _Research Relevance Score:_ `4.235`  
-  _Signals:_ Methods  
-  _Lignocellulosic biomass can be converted into biofuels and other valuable bioproducts, but it must first undergo physicochemical and enzymatic degradation. Among the various enzymes involved in lignocellulose degradation, thermophilic glycoside hydrolase famil…_
-
-## ML for evolution & pathogens — 6 result(s)
-
-- **[Machine learning accelerated nonadiabatic molecular dynamics of defect-mediated recombination in alkali metal passivated Cu2ZnSnS4.](https://pubmed.ncbi.nlm.nih.gov/42223102/)**  
-  Zhaosheng Zhang, Qing Xiong, Yanbo Liu, Jiadong Liu, Wutong Zhang · The Journal of chemical physics · 2026-06-07  
-  _Research Relevance Score:_ `9.985`  
+- **[Machine learning-driven optimization of specific, compact, and efficient base editors via single-round diversification.](https://pubmed.ncbi.nlm.nih.gov/42258531/)**  
+  Mykyta Ielanskyi, Meng Wang, Lewis Scott, Lila Rieber, Stephanie Merrett, Johannes Schimunek · Nucleic acids research · 2026-06-08  
+  _Research Relevance Score:_ `8.286`  
   _Signals:_ Viral evolution, Methods  
-  _Nonradiative electron-hole recombination mediated by defects is a critical loss mechanism in semiconductors and requires computationally demanding nonadiabatic (NA) molecular dynamics simulations. In this work, we develop a machine learning-accelerated framewo…_
+  _Base editing shows great potential in research and clinical applications. Current iterations of the deaminases used to create precise single-nucleotide changes via base editing exhibit undesirable effects, including off-targeting, off-base editing, and bystand…_
 - **[The Systematic Study of Spatially Conserved Salt Bridges in Protein.](https://pubmed.ncbi.nlm.nih.gov/42253053/)**  
   Ziyu Peng, Zhaoyin Zhou, Gao Xiangxu, Dannan Yan, Mei Shao, Qian Zhang · Journal of chemical information and modeling · 2026-06-08  
-  _Research Relevance Score:_ `8.294`  
+  _Research Relevance Score:_ `8.286`  
   _Signals:_ Viral evolution, Methods  
   _Salt-bridge conservation has traditionally been evaluated at the primary sequence level, leaving the persistence of three-dimensional interaction sites across homologous families largely unexplored. In this study, we developed a systematic family-level structu…_
+- **[Unraveling hidden species diversity of talpid moles using phylogenomics and skull-based deep learning.](https://pubmed.ncbi.nlm.nih.gov/42260162/)**  
+  Kai He, Anlong Li, Quentin Martinez, Xiaoyun Wang, Zhongzheng Chen, Shuiwang He · Communications biology · 2026-06-08  
+  _Research Relevance Score:_ `5.886`  
+  _Signals:_ Methods  
+  _The sky islands of Southwest China are biodiversity hotspots, where geographic isolation has led to allopatric diversification and cryptic speciation. Here, we integrated phylogenomics, molecular species delimitation, and morphometric analyses to assess the ph…_
+- **[Digital Hydrogel Fluorescent-Enhancing Microspheres via CRISPR/Cas12a for Amplification-Free Relative Quantification of Nucleic Acids.](https://pubmed.ncbi.nlm.nih.gov/42259648/)**  
+  Xueer Yin, Qiangyuan Xiong, Taowei Shu, Sichen Yan, Jun Zhao, Zhenyu Wang · Analytical chemistry · 2026-06-08  
+  _Research Relevance Score:_ `4.186`  
+  _Signals:_ Methods  
+  _CRISPR/Cas systems hold great promise for molecular diagnostics, but their amplification-free applications are hampered by weak signals and poor quantification. Here, we developed CrisprDEM, a CRISPR/Cas12a-based digital hydrogel fluorescent-enhancing microsph…_
+- **[From green to gold: Synergistic enhancement of residents' well-being and ecological quality under China's "two mountains" pilots zones.](https://pubmed.ncbi.nlm.nih.gov/42259034/)**  
+  Zhaopu Liu, Haocheng Wang, Yu Lai, Liuyang Yao · Journal of environmental management · 2026-06-08  
+  _Research Relevance Score:_ `4.186`  
+  _Signals:_ Methods  
+  _Achieving a harmonious symbiosis between economic prosperity and environmental sustainability remains a defining challenge for global sustainable development. This study investigates China's pioneering "Two Mountains" practice pilot zones (TMPZ) as an institut…_
 - **[Progress of Non-Aqueous Liquid Electrolytes for High-Voltage Sodium-Ion Batteries.](https://pubmed.ncbi.nlm.nih.gov/42252904/)**  
   Honglin Hu, Jiahan Fu, Sheng Li, Chaofan Luo, Kai Huo, Xiaoyu Fu · Small (Weinheim an der Bergstrasse, Germany) · 2026-06-08  
-  _Research Relevance Score:_ `4.194`  
+  _Research Relevance Score:_ `4.186`  
   _Signals:_ Methods  
   _Due to their significant resource-economic advantages, sodium-ion batteries are gradually becoming an important alternative to lithium-ion batteries in large-scale energy storage. However, their performance under high-voltage operation (>4.0 V vs. Na+/Na) is l…_
 - **[Comparative metabolomics of resistant and susceptible pecan leaflets uncovers early defense responses to scab infection.](https://pubmed.ncbi.nlm.nih.gov/42252408/)**  
   Min Jeong Kang, Samuel O Ogundipe, Gaurab Bhattarai, Ronald B Pegg, William L Kerr, M Lenny Wells · BMC plant biology · 2026-06-08  
-  _Research Relevance Score:_ `4.194`  
+  _Research Relevance Score:_ `4.186`  
   _Signals:_ Methods  
   _Pecan scab (Venturia effusa) is a devastating fungal disease affecting commercial pecan production. Developing resistant cultivars remains the most sustainable strategy, but this has been hindered by limited mechanistic understanding of resistance and the pres…_
-- **[Machine learning- assisted remaining useful lifetime prediction of power electronic converters.](https://pubmed.ncbi.nlm.nih.gov/42252321/)**  
-  Hussain Sayed, Harish S Krishnamoorthy · Scientific reports · 2026-06-07  
-  _Research Relevance Score:_ `4.185`  
-  _Signals:_ Methods  
-  _This paper presents a methodology for the remaining useful life (RUL) prediction in power electronic converters based on the health monitoring of semiconductor devices and DC capacitor(s). The primary components considered are Gallium Nitride High Electron Mob…_
 - **[Multilayered Human Activities Shape the Microbial Communities of Groundwater-Dependent Ecosystems on an Arid Oceanic Island.](https://pubmed.ncbi.nlm.nih.gov/42257736/)**  
   Francesco Di Nezio, Andrea Di Cesare, Marta García-Cobo, David Brankovits, Raffaella Sabatino, Giulia Borgomaneiro · Microbial ecology · 2026-06-08  
-  _Research Relevance Score:_ `2.494`  
+  _Research Relevance Score:_ `2.486`  
   _Island coastal aquifers, though spatially limited, sustain key ecosystem functions linked to locally critical provisioning, maintenance and cultural ecosystem services. These functions are largely dependent on the presence of highly adapted biological communit…_
+- **[Tools For Building Artificial Biological Nanostructures.](https://pubmed.ncbi.nlm.nih.gov/42207717/)**  
+  Thomas S Bradford, Sarah Hutchings, Jonathon D Liston, Zuzanna Pakosz-Stepien, Artemis Sanderson, Ahmed Shaukat · ACS nano · 2026-05-28  
+  _Research Relevance Score:_ `2.394`  
+  _Biological nanostructures and nanomachines encompass a wide range of natural assemblies from the smallest prokaryotes to viruses, enzymes, and subcellular compartments. Their capabilities are impressive, including replication, locomotion, and catalysis. To be …_
