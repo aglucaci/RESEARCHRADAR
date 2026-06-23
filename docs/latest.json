@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-06-22 18:08:46",
-  "generated_at_utc": "2026-06-22 18:08:56",
+  "generated_at_local": "2026-06-23 15:42:26",
+  "generated_at_utc": "2026-06-23 15:42:36",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/06/21",
-    "maxdate": "2026/06/22"
+    "mindate": "2026/06/22",
+    "maxdate": "2026/06/23"
   },
   "ranking": "research_relevance_score(topic_priority + research_signal + source_metadata + recency + cross_domain)",
   "signal_ontology": {
@@ -168,12 +168,12 @@
           "pubdate_utc": "2026-06-22T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42329569/",
           "abstract_snippet": "Endophytic microorganisms in legume roots form an important interface between soil conditions and plant health. However, field-scale evidence remains limited on how cultivable endophytic bacterial and fungal assemblages in pea roots vary with soil and climatic…",
-          "score": 2.593,
+          "score": 2.586,
           "score_components": {
             "theme_priority": 1.1,
             "research_signal": 0.0,
             "venue": 0.0,
-            "recency": 1.493,
+            "recency": 1.486,
             "cross_domain": 0.0
           },
           "signal_components": {},
@@ -188,28 +188,24 @@
       "count": 1,
       "items": [
         {
-          "pmid": "42324618",
-          "title": "Mapping the metagenomic landscape: combined shotgun sequencing and quantitative PCR to profile gut metagenome-assembled genomes in marmosets following treatment with a broad-spectrum antibiotic cocktail.",
-          "authors": "Jordan B Hernandez, Mayowa Abiodun, Shivdeep S Hayer, Timothy Dickson, Paul Ayayee, Jonathan B Clayton",
-          "journal": "Gut microbes",
-          "pubdate": "2026-06-21",
-          "pubdate_utc": "2026-06-21T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42324618/",
-          "abstract_snippet": "Broad-spectrum antibiotics are invaluable tools for treating pathogenic infections, but their sustained use can contribute to changes in gut microbiome membership and the emergence of antimicrobial resistance. While these unintended side effects are independen…",
-          "score": 4.735,
+          "pmid": "42330062",
+          "title": "Applying PCR cycle autonormalization to PacBio full-length 16S rRNA library preparations: impacts on error rates and sequence distributions.",
+          "authors": "Charles J Mason, Mikinley Weaver, Karma R Kissinger, Melissa A Johnson, Duan C Copeland, Kirk E Anderson",
+          "journal": "mSphere",
+          "pubdate": "2026-06-22",
+          "pubdate_utc": "2026-06-22T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42330062/",
+          "abstract_snippet": "The bacterial 16S rRNA gene is widely used to characterize host-associated and environmental microbiomes, most commonly through sequencing short hypervariable regions. Recent improvements in PacBio sequencing chemistry and concatenation approaches can now enab…",
+          "score": 2.536,
           "score_components": {
             "theme_priority": 1.05,
-            "research_signal": 2.2,
+            "research_signal": 0.0,
             "venue": 0.0,
-            "recency": 1.485,
+            "recency": 1.486,
             "cross_domain": 0.0
           },
-          "signal_components": {
-            "emerging_threat": 2.2
-          },
-          "signal_classes": [
-            "Emerging threat"
-          ],
+          "signal_components": {},
+          "signal_classes": [],
           "theme": "Metagenomics benchmarking & pipelines"
         }
       ]
@@ -217,8 +213,35 @@
     {
       "label": "ML for evolution & pathogens",
       "query": "(((\"machine learning\" OR \"deep learning\" OR transformer) AND (virus OR pathogen OR evolution OR phylogeny)) OR ((\"protein language model\" OR ESM) AND (mutation OR evolution OR fitness))) AND (\"machine learning\" OR \"deep learning\" OR transformer OR \"foundation model\" OR \"protein language model\" OR ESM) NOT (case report OR randomized OR psychology)",
-      "count": 8,
+      "count": 11,
       "items": [
+        {
+          "pmid": "42330352",
+          "title": "Graphylo Var: Predicting the impact of non-coding variants using a multi-species sequence model.",
+          "authors": "Dongjoon Lim, Mathieu Blanchette",
+          "journal": "Bioinformatics (Oxford, England)",
+          "pubdate": "2026-06-22",
+          "pubdate_utc": "2026-06-22T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42330352/",
+          "abstract_snippet": "Understanding the functional impact of genetic variants is a key problem for precision medicine. Tools like CADD, PhyloP, and PhastCons are useful, but they often look at each position in the genome in isolation. This means they can miss important information …",
+          "score": 10.98,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 6.994,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 1.5
+          },
+          "signal_components": {
+            "viral_evolution": 2.6,
+            "methods": 4.394
+          },
+          "signal_classes": [
+            "Viral evolution",
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
         {
           "pmid": "42253053",
           "title": "The Systematic Study of Spatially Conserved Salt Bridges in Protein.",
@@ -228,12 +251,12 @@
           "pubdate_utc": "2026-06-08T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42253053/",
           "abstract_snippet": "Salt-bridge conservation has traditionally been evaluated at the primary sequence level, leaving the persistence of three-dimensional interaction sites across homologous families largely unexplored. In this study, we developed a systematic family-level structu…",
-          "score": 8.177,
+          "score": 8.17,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 4.3,
             "venue": 0.0,
-            "recency": 1.377,
+            "recency": 1.37,
             "cross_domain": 1.5
           },
           "signal_components": {
@@ -255,12 +278,12 @@
           "pubdate_utc": "2026-05-29T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42214054/",
           "abstract_snippet": "Liquid-liquid phase separation (LLPS) underlies the formation of biomolecular liquid condensates (also termed membraneless organelles, MLOs), which are essential for spatially organizing various biochemical processes within cells. Proteins that play a key role…",
-          "score": 8.1,
+          "score": 8.093,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 4.3,
             "venue": 0.0,
-            "recency": 1.3,
+            "recency": 1.293,
             "cross_domain": 1.5
           },
           "signal_components": {
@@ -282,12 +305,12 @@
           "pubdate_utc": "2026-06-22T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42329460/",
           "abstract_snippet": "Climate-induced heat stress has emerged as a serious global challenge due to rising temperatures, frequent heatwaves, and rapid urbanisation. These changes pose significant risks to human health, urban infrastructure, and occupational safety. In response, tech…",
-          "score": 7.893,
+          "score": 7.886,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 3.9,
             "venue": 0.0,
-            "recency": 1.493,
+            "recency": 1.486,
             "cross_domain": 1.5
           },
           "signal_components": {
@@ -309,16 +332,66 @@
           "pubdate_utc": "2026-06-22T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42300014/",
           "abstract_snippet": "As lithium batteries advance toward higher energy densities, developing electrolytes that remain stable under high-voltage conditions has become a critical bottleneck. However, electrolytes encompass a vast structural design space, complex descriptor systems, …",
-          "score": 5.893,
+          "score": 5.886,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 3.4,
             "venue": 0.0,
-            "recency": 1.493,
+            "recency": 1.486,
             "cross_domain": 0.0
           },
           "signal_components": {
             "methods": 3.4
+          },
+          "signal_classes": [
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42332086",
+          "title": "A cloud-based miniscope for neurosurveillance of brain health and disease in freely behaving animals.",
+          "authors": "Janaka Senarathna, Darren Yang, Julia Brill, Subhrajit Das, Shruthi Bare, Yunke Ren",
+          "journal": "Nature methods",
+          "pubdate": "2026-06-22",
+          "pubdate_utc": "2026-06-22T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42332086/",
+          "abstract_snippet": "Miniaturized microscopes or 'miniscopes' for neuroimaging in freely behaving animals mostly operate over short durations (<2 h) and image either neuronal activity or cerebral hemodynamics. In contrast, central nervous system (CNS) disease models involving seiz…",
+          "score": 4.186,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 1.7,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 1.7
+          },
+          "signal_classes": [
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42329843",
+          "title": "Dual-Recognition AIEgens-Lysozyme Assemblies for Interpretable Machine Learning-Enabled Sensor Arrays: Toward Rapid and Transparent Surveillance of Microbial Threats.",
+          "authors": "Yuechun Li, Zhaowen Cui, Chenxin Ji, Longhua Shi, Yiyue Ma, Yuanyuan Cheng",
+          "journal": "Analytical chemistry",
+          "pubdate": "2026-06-22",
+          "pubdate_utc": "2026-06-22T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42329843/",
+          "abstract_snippet": "Array-based sensing technology holds immense potential for the rapid identification of pathogenic bacteria. Nevertheless, developing a universal strategy that simultaneously achieves high-throughput discrimination of diverse foodborne pathogens while maintaini…",
+          "score": 4.186,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 1.7,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 1.7
           },
           "signal_classes": [
             "Methods"
@@ -334,12 +407,12 @@
           "pubdate_utc": "2026-06-22T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42329455/",
           "abstract_snippet": "As of now, current studies have confirmed that circadian rhythm genes (CRGs) can modulate the onset and development of metabolic dysfunction-associated fatty liver disease (MAFLD). Leveraging computational biology methodologies, systematic and thorough investi…",
-          "score": 4.193,
+          "score": 4.186,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 1.7,
             "venue": 0.0,
-            "recency": 1.493,
+            "recency": 1.486,
             "cross_domain": 0.0
           },
           "signal_components": {
@@ -359,12 +432,12 @@
           "pubdate_utc": "2026-06-22T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42328973/",
           "abstract_snippet": "Drug-induced liver injury (DILI) is a leading cause of drug failure and post-market withdrawals. Traditional preclinical methods fail to detect up to 40-45% of clinical hepatotoxicity cases. Computational approaches, particularly those based on machine learnin…",
-          "score": 4.193,
+          "score": 4.186,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 1.7,
             "venue": 0.0,
-            "recency": 1.493,
+            "recency": 1.486,
             "cross_domain": 0.0
           },
           "signal_components": {
@@ -384,12 +457,12 @@
           "pubdate_utc": "2026-06-22T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42328744/",
           "abstract_snippet": "A thorough understanding of the microstructural evolution and thermophysical properties of Pu-containing molten salts is crucial for optimizing the performance of molten-salt reactor (MSR) fuel salts and spent-fuel reprocessing. This study combines active lear…",
-          "score": 4.193,
+          "score": 4.186,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 1.7,
             "venue": 0.0,
-            "recency": 1.493,
+            "recency": 1.486,
             "cross_domain": 0.0
           },
           "signal_components": {
@@ -401,20 +474,20 @@
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "42294581",
-          "title": "Inverse design and discovery of high entropy alloy catalysts for efficient oxygen evolution reaction.",
-          "authors": "Jyotishraj Thoudam, Ankit Jain",
-          "journal": "The Journal of chemical physics",
-          "pubdate": "2026-06-21",
-          "pubdate_utc": "2026-06-21T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42294581/",
-          "abstract_snippet": "High-entropy alloys (HEAs) consisting of earth-abundant elements can serve as replacement for expensive, industrial grade catalysts, such as iridium dioxide IrO2, for oxygen evolution reactions (OERs). However, navigating the exponential configuration space of…",
-          "score": 2.485,
+          "pmid": "42331635",
+          "title": "Multidimensional Pathogen Fingerprinting via DNA Scaffold-Confined Enzymatic Synthesis of Silicon Quantum Dots.",
+          "authors": "Yiting Wang, Na Wu, Yi Jiang, Changjian Yan, Wei Zhang, Ruinian Hua",
+          "journal": "Analytical chemistry",
+          "pubdate": "2026-06-22",
+          "pubdate_utc": "2026-06-22T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42331635/",
+          "abstract_snippet": "Accurate and highly sensitive detection of pathogenic bacteria is essential to public health. Conventional biosensors often rely on bulk signal amplification, which suffers from diffusion-limited kinetics and high background signals. Herein, we present a progr…",
+          "score": 2.486,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 0.0,
             "venue": 0.0,
-            "recency": 1.485,
+            "recency": 1.486,
             "cross_domain": 0.0
           },
           "signal_components": {},
