@@ -1,6 +1,6 @@
 # ETHER scientific literature radar
 
-**Updated:** 2026-07-06 16:15:13  
+**Updated:** 2026-07-06 16:47:11  
 **Window:** last 1 day(s)  
 **Ranking:** Research Relevance Score (topic priority + research signals + source metadata + recency + cross-domain bridge)
 
@@ -55,6 +55,6 @@ _No new items in this window._
   _Simulation-based inference methods are increasingly being used in population genetics due to their flexibility and ability to be applied in settings where likelihood-based methods are intractable. Perhaps the best known such method is Approximate Bayesian Comp…_
 - **[Automatic prediction of cotton leaf's diseases using deep learning techniques.](https://pubmed.ncbi.nlm.nih.gov/42402658/)**  
   Muhammad Naeem, Muhammad Ibrahim, Nadeem Sarwar, Oumaima Saidani, Asma Irshad, Muhammad Shadab Alam Hashmi · Scientific reports · 2026-07-05  
-  _Research Relevance Score:_ `4.186`  
+  _Research Relevance Score:_ `4.185`  
   _Signals:_ Methods  
   _Cotton leaf diseases present a major threat to global cotton production, significantly impacting both yield and fiber quality. Traditional diagnostic methods are labor-intensive, time-consuming, and demand highly skilled professionals, making them inefficient …_
