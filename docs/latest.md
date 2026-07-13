@@ -1,6 +1,6 @@
 # ETHER scientific literature radar
 
-**Updated:** 2026-07-13 15:37:01  
+**Updated:** 2026-07-13 16:21:05  
 **Window:** last 1 day(s)  
 **Ranking:** Research Relevance Score (topic priority + research signals + source metadata + recency + cross-domain bridge)
 
