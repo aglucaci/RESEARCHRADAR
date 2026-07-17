@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-07-16 14:50:49",
-  "generated_at_utc": "2026-07-16 14:51:00",
+  "generated_at_local": "2026-07-17 14:22:34",
+  "generated_at_utc": "2026-07-17 14:22:44",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/07/15",
-    "maxdate": "2026/07/16"
+    "mindate": "2026/07/16",
+    "maxdate": "2026/07/17"
   },
   "ranking": "research_relevance_score(topic_priority + research_signal + source_metadata + recency + cross_domain)",
   "signal_ontology": {
@@ -115,14 +115,70 @@
     {
       "label": "Selection & codon models",
       "query": "(((\"dN/dS\" OR \"codon model\" OR HyPhy OR FEL OR MEME OR FUBAR OR BUSTED OR \"branch-site\") AND (selection OR evolution OR adaptive OR constraint)) OR ((\"episodic selection\" OR \"positive selection\" OR \"diversifying selection\") AND (virus OR pathogen))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "pmid": "42463133",
+          "title": "CAPHEINE, or everything and the kitchen sink: a workflow for automating selection analyses using HyPhy.",
+          "authors": "Hannah Verdonk, Danielle Callan, Sergei L Kosakovsky Pond",
+          "journal": "Genome biology and evolution",
+          "pubdate": "2026-07-17",
+          "pubdate_utc": "2026-07-17T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42463133/",
+          "abstract_snippet": "Here we present CAPHEINE, a computational workflow that starts with a set of unaligned pathogen sequences and a reference genome and performs a comprehensive exploratory evolutionary analysis of the input data. CAPHEINE pairs nicely with studies of site-level …",
+          "score": 10.445,
+          "score_components": {
+            "theme_priority": 1.35,
+            "research_signal": 6.0,
+            "venue": 1.6,
+            "recency": 1.495,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "selection": 6.0
+          },
+          "signal_classes": [
+            "Selection"
+          ],
+          "theme": "Selection & codon models"
+        }
+      ]
     },
     {
       "label": "Cancer evolution & somatic selection",
       "query": "(((\"cancer evolution\" OR \"tumor evolution\" OR \"somatic evolution\" OR \"clonal evolution\") AND (genomics OR sequencing OR phylogen* OR \"single-cell\")) OR ((cancer OR tumor OR lymphoma OR leukemia) AND (\"positive selection\" OR \"clonal selection\" OR \"driver mutation\" OR \"dN/dS\" OR \"selection inference\")) OR ((\"mutational signature\" OR \"mutational signatures\") AND (cancer OR tumor) AND (evolution OR selection OR phylogeny))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "pmid": "42463712",
+          "title": "Long-read sequencing of single cell-derived melanoma sublines reveals divergent and parallel genomic and epigenomic evolutionary trajectories.",
+          "authors": "Yuelin Liu, Anton Goretsky, Ayse G Keskus, Salem Malikic, Tanveer Ahmad, E Michael Gertz",
+          "journal": "Nature communications",
+          "pubdate": "2026-07-16",
+          "pubdate_utc": "2026-07-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42463712/",
+          "abstract_snippet": "Tumor evolution is driven by various mutational processes, ranging from single-nucleotide variants (SNVs) to large structural variants (SVs) to dynamic shifts in DNA methylation. Current short-read sequencing methods struggle to accurately capture the full spe…",
+          "score": 13.286,
+          "score_components": {
+            "theme_priority": 1.2,
+            "research_signal": 9.1,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 1.5
+          },
+          "signal_components": {
+            "viral_evolution": 2.6,
+            "cancer_evolution": 4.8,
+            "methods": 1.7
+          },
+          "signal_classes": [
+            "Viral evolution",
+            "Cancer evolution",
+            "Methods"
+          ],
+          "theme": "Cancer evolution & somatic selection"
+        }
+      ]
     },
     {
       "label": "Recombination & mosaicism",
@@ -157,23 +213,76 @@
     {
       "label": "Atlases, compendia, reference resources",
       "query": "(((atlas OR database OR compendium OR \"reference catalog\" OR resource) AND (virome OR microbiome OR pathogen)) OR ((\"large-scale\" OR global) AND (virome OR microbiome) AND (metadata OR harmonization))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 0,
-      "items": []
+      "count": 2,
+      "items": [
+        {
+          "pmid": "41408770",
+          "title": "Characterization of Emerging Pestalotiopsis Sensu Lato Causing Foliar Blights on Conifers in Taiwan and a Preliminary Assessment of Fungicide Susceptibility.",
+          "authors": "Yuan-Cheng Xu, Wen-Wei Hsiao, Cheng-Yi Yang, Chia-Ying Hsu, Sheng-Yu Hsu, Chieh-Yin Chen",
+          "journal": "Plant disease",
+          "pubdate": "2026-07-16",
+          "pubdate_utc": "2026-07-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41408770/",
+          "abstract_snippet": "Pestalotiopsis sensu lato species have gained attention as emerging primary pathogens on economically important crops, shifting from their previous roles as weak pathogens, saprobes, or endophytes. Coniferous trees in Taiwan have recently shown fungal infectio…",
+          "score": 9.686,
+          "score_components": {
+            "theme_priority": 1.1,
+            "research_signal": 5.6,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 1.5
+          },
+          "signal_components": {
+            "methods": 3.4,
+            "emerging_threat": 2.2
+          },
+          "signal_classes": [
+            "Methods",
+            "Emerging threat"
+          ],
+          "theme": "Atlases, compendia, reference resources"
+        },
+        {
+          "pmid": "42464363",
+          "title": "Vector-borne pathogen profiling and phylogeny of ticks infesting domestic dogs in Chad, Africa, using targeted next-generation sequencing and DNA barcoding.",
+          "authors": "Ian Kirimi Daniel, Maureen A Kelly, Rafael A N Ramos, Hassan Hakimi, Jobin Jose Kattoor, Rebecca P Wilkes",
+          "journal": "Parasites & vectors",
+          "pubdate": "2026-07-16",
+          "pubdate_utc": "2026-07-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42464363/",
+          "abstract_snippet": "Understanding the range of vectors and pathogen diversity in sub-Saharan Africa is crucial for efficient disease prevention and control efforts. Domestic dogs are susceptible to many vector-borne pathogens (VBPs) and serve as sentinels for several human pathog…",
+          "score": 4.786,
+          "score_components": {
+            "theme_priority": 1.1,
+            "research_signal": 2.2,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "emerging_threat": 2.2
+          },
+          "signal_classes": [
+            "Emerging threat"
+          ],
+          "theme": "Atlases, compendia, reference resources"
+        }
+      ]
     },
     {
       "label": "Metagenomics benchmarking & pipelines",
       "query": "((metagenomics AND (benchmark* OR pipeline OR \"best practices\" OR reproducible OR workflow)) OR ((Kraken2 OR MetaPhlAn OR Bracken OR Centrifuge OR Kaiju) AND (benchmark* OR evaluation))) AND (benchmark* OR workflow OR pipeline OR Snakemake OR Nextflow OR WDL) NOT (case report OR randomized OR psychology)",
-      "count": 3,
+      "count": 1,
       "items": [
         {
-          "pmid": "42458473",
-          "title": "Exploration of viral diversity in Aedes mosquitoes employing different shotgun metagenomic data analysis pipelines.",
-          "authors": "Ekta Gupta, Shashi Sharma, Sachin Narayan Tikar, Paban Kumar Dash",
-          "journal": "Virology journal",
-          "pubdate": "2026-07-15",
-          "pubdate_utc": "2026-07-15T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42458473/",
-          "abstract_snippet": "Metagenomics or metaviromics is emerging as a powerful technology for pathogen surveillance and pandemic preparedness. Mosquitoes are important vectors for transmission of many emerging viruses responsible for numerous outbreaks. Monitoring mosquitoes becomes …",
+          "pmid": "42460892",
+          "title": "Freeze-Drying as a Novel Concentrating Method for Wastewater Detection of SARS-CoV-2.",
+          "authors": "Rui Dong, Elizabeth Noriega Landa, Hugues Ouellet, Wen-Yee Lee, Chuan Xiao",
+          "journal": "Environmental science & technology",
+          "pubdate": "2026-07-16",
+          "pubdate_utc": "2026-07-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42460892/",
+          "abstract_snippet": "Detecting viral RNA from wastewater has emerged as a cost-effective approach for community-level surveillance during the recent SARS-CoV-2 pandemic. Although various concentrating methods have been developed, none are optimal across all key requirements for wa…",
           "score": 10.336,
           "score_components": {
             "theme_priority": 1.05,
@@ -193,118 +302,39 @@
             "Emerging threat"
           ],
           "theme": "Metagenomics benchmarking & pipelines"
-        },
-        {
-          "pmid": "42454932",
-          "title": "Construction and validation of a phenotypic prediction model for bacterial gentamicin resistance using deep learning with gene sequences.",
-          "authors": "Jun Li, Siyan Xue, Lingxuan Hou, Zhixuan Zhang, Kaixuan Yuan, Xiaozhong Chen",
-          "journal": "Microbiology spectrum",
-          "pubdate": "2026-07-15",
-          "pubdate_utc": "2026-07-15T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42454932/",
-          "abstract_snippet": "The emergence of bacterial resistance to antibiotics poses a significant threat to human health; thus, there is an urgent need for new strategies in understanding the mechanisms of resistance and further fast prediction of it. Deep learning models offer promis…",
-          "score": 7.936,
-          "score_components": {
-            "theme_priority": 1.05,
-            "research_signal": 3.9,
-            "venue": 0.0,
-            "recency": 1.486,
-            "cross_domain": 1.5
-          },
-          "signal_components": {
-            "methods": 1.7,
-            "emerging_threat": 2.2
-          },
-          "signal_classes": [
-            "Methods",
-            "Emerging threat"
-          ],
-          "theme": "Metagenomics benchmarking & pipelines"
-        },
-        {
-          "pmid": "42454926",
-          "title": "Exploratory analysis of livestock waste treatment impacts on microbial diversity and antimicrobial resistance gene abundance.",
-          "authors": "Jade Davies, Jessica Ireland-Hughes, Silvia Stronati, Richard P Smith, Claire Oastler, Javier Nunez-Garcia",
-          "journal": "Microbiology spectrum",
-          "pubdate": "2026-07-15",
-          "pubdate_utc": "2026-07-15T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42454926/",
-          "abstract_snippet": "The potential spread of antimicrobial resistance (AMR) through agricultural waste is underexplored and may contribute to the dissemination of AMR genes into the environment. This pilot study used metagenomic sequencing to investigate how anaerobic digestion (A…",
-          "score": 4.936,
-          "score_components": {
-            "theme_priority": 1.05,
-            "research_signal": 2.4,
-            "venue": 0.0,
-            "recency": 1.486,
-            "cross_domain": 0.0
-          },
-          "signal_components": {
-            "metagenomics_surveillance": 2.4
-          },
-          "signal_classes": [
-            "Metagenomics / surveillance"
-          ],
-          "theme": "Metagenomics benchmarking & pipelines"
         }
       ]
     },
     {
       "label": "ML for evolution & pathogens",
       "query": "(((\"machine learning\" OR \"deep learning\" OR transformer) AND (virus OR pathogen OR evolution OR phylogeny)) OR ((\"protein language model\" OR ESM) AND (mutation OR evolution OR fitness))) AND (\"machine learning\" OR \"deep learning\" OR transformer OR \"foundation model\" OR \"protein language model\" OR ESM) NOT (case report OR randomized OR psychology)",
-      "count": 12,
+      "count": 9,
       "items": [
         {
-          "pmid": "42455870",
-          "title": "Popformer: Learning general signatures of positive selection with a self-supervised transformer.",
-          "authors": "Leon Zong, Sorelle A Friedler, Sara Mathieson",
-          "journal": "PLoS computational biology",
-          "pubdate": "2026-07-15",
-          "pubdate_utc": "2026-07-15T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42455870/",
-          "abstract_snippet": "Understanding natural selection can help shed light on the genetics underpinning adaptive evolution. The widespread availability of large-scale human genetic variation data has led to the development of data-driven methods for detecting signatures of selection…",
-          "score": 11.286,
+          "pmid": "42461270",
+          "title": "The Role of Artificial Intelligence and Machine Learning in Predictive Virology: Forecasting, Tracking, and Combating Viral Threats.",
+          "authors": "Mohamed A Farrag",
+          "journal": "Vector borne and zoonotic diseases (Larchmont, N.Y.)",
+          "pubdate": "2026-07-16",
+          "pubdate_utc": "2026-07-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42461270/",
+          "abstract_snippet": "The escalating threat of viral pandemics, dramatically illustrated by the COVID-19 crisis, has exposed the critical shortcomings of conventional reactive virology in addressing rapidly evolving pathogens. This review introduces predictive virology (PV) as an a…",
+          "score": 20.673,
           "score_components": {
             "theme_priority": 1.0,
-            "research_signal": 7.3,
+            "research_signal": 16.687,
             "venue": 0.0,
             "recency": 1.486,
             "cross_domain": 1.5
           },
           "signal_components": {
-            "selection": 3.0,
-            "viral_evolution": 2.6,
-            "methods": 1.7
-          },
-          "signal_classes": [
-            "Selection",
-            "Viral evolution",
-            "Methods"
-          ],
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "42455367",
-          "title": "Rapid diagnostics innovations for urinary tract infections using molecular biology, artificial intelligence and antimicrobial resistance surveillance: a comprehensive review.",
-          "authors": "Soniya Goyal, Pooja Sharma, Deepak Aggarwal, Sameer Singh Faujdar",
-          "journal": "Molecular biology reports",
-          "pubdate": "2026-07-15",
-          "pubdate_utc": "2026-07-15T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42455367/",
-          "abstract_snippet": "Urinary tract infections (UTIs) are among the most prevalent bacterial infections worldwide, accounting for a major clinical impact due to high recurrence rates, microbial diversity, biofilm formation, polymicrobial contribution and the rapid emergence of anti…",
-          "score": 10.286,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 6.3,
-            "venue": 0.0,
-            "recency": 1.486,
-            "cross_domain": 1.5
-          },
-          "signal_components": {
+            "viral_evolution": 5.2,
             "metagenomics_surveillance": 2.4,
-            "methods": 1.7,
-            "emerging_threat": 2.2
+            "methods": 3.4,
+            "emerging_threat": 5.687
           },
           "signal_classes": [
+            "Viral evolution",
             "Metagenomics / surveillance",
             "Methods",
             "Emerging threat"
@@ -312,47 +342,49 @@
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "42425922",
-          "title": "Unraveling the Mechanism of Drug Binding to SARS-CoV-2 RNA Pseudoknot With Thermodynamics-Driven Machine Learning.",
-          "authors": "Mariia Ivonina, Jakub Rydzewski",
-          "journal": "Journal of computational chemistry",
-          "pubdate": "2026-07-15",
-          "pubdate_utc": "2026-07-15T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42425922/",
-          "abstract_snippet": "The pseudoknot secondary structure in SARS-CoV-2 RNA is essential for regulating protein synthesis through - $$ - $$ 1 programmed ribosomal frameshifting ( - 1 $$ -1 $$ PRF), a mechanism that allows the virus to generate both structural and non-structural prot…",
-          "score": 8.686,
+          "pmid": "42461048",
+          "title": "From sites to structure to serology: a roadmap for structure-aware molecular evolution of antigenically evolving viruses.",
+          "authors": "Sanni Översti, Spyros Lytras, Shusuke Kawakubo, Jumpei Ito, Mahan Ghafari",
+          "journal": "Journal of virology",
+          "pubdate": "2026-07-16",
+          "pubdate_utc": "2026-07-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42461048/",
+          "abstract_snippet": "The genomic deluge has pushed viral molecular evolution into a site-resolved era. For antigenically evolving viruses such as influenza and severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), dense genomic sampling now supports mutation-annotated phyl…",
+          "score": 13.286,
           "score_components": {
             "theme_priority": 1.0,
-            "research_signal": 4.7,
+            "research_signal": 9.3,
             "venue": 0.0,
             "recency": 1.486,
             "cross_domain": 1.5
           },
           "signal_components": {
-            "selection": 3.0,
+            "viral_evolution": 5.2,
+            "metagenomics_surveillance": 2.4,
             "methods": 1.7
           },
           "signal_classes": [
-            "Selection",
+            "Viral evolution",
+            "Metagenomics / surveillance",
             "Methods"
           ],
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "42455473",
-          "title": "Integrative machine learning reveals a TLS signature and CCL5-CCR1 axis-associated immune remodeling in breast cancer.",
-          "authors": "Chuyi Wang, Pengcheng Ding, Wei Ouyang, Yunhai Ding, Meilin Lu, Tianyi Li",
-          "journal": "Cellular oncology (Dordrecht, Netherlands)",
-          "pubdate": "2026-07-15",
-          "pubdate_utc": "2026-07-15T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42455473/",
-          "abstract_snippet": "The transition from ductal carcinoma in situ (DCIS) to invasive ductal carcinoma (IDC) is a critical but poorly understood step in breast cancer progression. This study characterizes the dynamic remodeling of the tumor microenvironment (TME) during this transi…",
-          "score": 8.086,
+          "pmid": "42464692",
+          "title": "The evolving bioinformatic approaches to identifying genetic targets of promise in cancers.",
+          "authors": "Vijay Kumar, Darin Mansor Mathkor, Shafiul Haque",
+          "journal": "Expert opinion on therapeutic targets",
+          "pubdate": "2026-07-17",
+          "pubdate_utc": "2026-07-17T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42464692/",
+          "abstract_snippet": "The search for actionable genetic targets in cancer has evolved substantially over the past decade. Earlier approaches were focused on single genes or individual molecular alterations, but this is insufficient to capture tumor complexity in vivo. Cancer is inf…",
+          "score": 8.095,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 4.1,
             "venue": 0.0,
-            "recency": 1.486,
+            "recency": 1.495,
             "cross_domain": 1.5
           },
           "signal_components": {
@@ -366,29 +398,52 @@
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "42456801",
-          "title": "Insecticide Resistance Beyond Genetics: Integrating Microbiomes, Machine Learning, and Emerging Molecular Technologies.",
-          "authors": "Venkatesan Thiruvengadam, Ashok Karuppannasamy, Subaharan Kesavan",
-          "journal": "Current opinion in insect science",
-          "pubdate": "2026-07-15",
-          "pubdate_utc": "2026-07-15T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42456801/",
-          "abstract_snippet": "Insecticide resistance has become a serious and escalating threat to global agriculture, undermining food security, farmer livelihood, and environmental health. Resistance is now widespread across major pest groups, including Lepidoptera, Hemiptera, Diptera, a…",
-          "score": 7.886,
+          "pmid": "42461837",
+          "title": "A novel deep-learning approach for robust identification of plant diseases.",
+          "authors": "Justin Hoffmann, Christopher Mai, Ricardo Buettner",
+          "journal": "PloS one",
+          "pubdate": "2026-07-16",
+          "pubdate_utc": "2026-07-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42461837/",
+          "abstract_snippet": "Rising temperatures and changing weather conditions are accelerating the spread of plant diseases and increasing the threat to global food security. Reliable detection of leaf diseases is therefore essential to protect crop yields and ensure food quality. Deep…",
+          "score": 5.886,
           "score_components": {
             "theme_priority": 1.0,
-            "research_signal": 3.9,
+            "research_signal": 3.4,
             "venue": 0.0,
             "recency": 1.486,
-            "cross_domain": 1.5
+            "cross_domain": 0.0
           },
           "signal_components": {
-            "methods": 1.7,
-            "emerging_threat": 2.2
+            "methods": 3.4
           },
           "signal_classes": [
-            "Methods",
-            "Emerging threat"
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42461368",
+          "title": "Recent Advances in AI for Automated ICD Coding: A Systematic Literature Review.",
+          "authors": "Abdul Rehman Khalid, Haider Ali, Kounen Fathima, Kouayep Sonia Carole, Hee-Cheol Kim",
+          "journal": "Journal of medical systems",
+          "pubdate": "2026-07-16",
+          "pubdate_utc": "2026-07-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42461368/",
+          "abstract_snippet": "International Classification of Diseases (ICD) codes enable correct billing, insurance reimbursement, and healthcare analytics. However, manual coding is time-consuming, expensive, and error-prone, creating bottlenecks in clinical workflow and limiting scalabi…",
+          "score": 5.886,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 3.4,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 3.4
+          },
+          "signal_classes": [
+            "Methods"
           ],
           "theme": "ML for evolution & pathogens"
         },
@@ -401,12 +456,12 @@
           "pubdate_utc": "2026-07-16T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42457820/",
           "abstract_snippet": "Aesthetic evaluation of artistic images remains a challenging prediction problem, constrained by the subjective nature of human aesthetic cognition and the complex interplay between low-level visual structures and high-level semantic characteristics. In terms …",
-          "score": 5.895,
+          "score": 5.886,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 3.4,
             "venue": 0.0,
-            "recency": 1.495,
+            "recency": 1.486,
             "cross_domain": 0.0
           },
           "signal_components": {
@@ -418,14 +473,64 @@
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "42458181",
-          "title": "Circulating T-cell phenotypes are influenced by prior Staphylococcus aureus exposure in hemodialysis patients.",
-          "authors": "Daniel J Dempsey, Sultan Imangaliyev, Tracey J Claxton, Emmett Browne, Roisin Connolly, James Ng",
-          "journal": "European journal of clinical microbiology & infectious diseases : official publication of the European Society of Clinical Microbiology",
-          "pubdate": "2026-07-15",
-          "pubdate_utc": "2026-07-15T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42458181/",
-          "abstract_snippet": "Staphylococcus aureus bloodstream infections are a significant risk for hemodialysis patients, who would significantly benefit from a preventative vaccine. To-date S. aureus vaccine trials have failed, in part due to lack of consideration of pre-existing immun…",
+          "pmid": "41667229",
+          "title": "A Comparative Evaluation of 7T MRI for Epilepsy with Deep Learning-Based Image Reconstruction and Dynamic Parallel Transmission.",
+          "authors": "Erik H Middlebrooks, Justyna O Ekert, Xiangzhi Zhou, Shengzhen Tao, Vishal N Patel, Thomas Yu",
+          "journal": "AJNR. American journal of neuroradiology",
+          "pubdate": "2026-07-16",
+          "pubdate_utc": "2026-07-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41667229/",
+          "abstract_snippet": "7T MRI enhances lesion detection in epilepsy but is limited by radiofrequency transmission field (B1+) inhomogeneity and long scan times. Recent advancements in dynamic parallel transmission and deep learning-based reconstructions offer promising solutions. We…",
+          "score": 5.886,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 3.4,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 3.4
+          },
+          "signal_classes": [
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42464411",
+          "title": "Mapping the knowledge landscape of planarian regeneration: a century of bibliometric insights.",
+          "authors": "Xinyang Wu, Fang Zhan, Xiaoran Zhang, Haoyang Zhang, Ya Wang, Ting Wang",
+          "journal": "Biology direct",
+          "pubdate": "2026-07-17",
+          "pubdate_utc": "2026-07-17T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42464411/",
+          "abstract_snippet": "Despite over two centuries of research, the knowledge landscape of planarian regeneration-a pivotal model for stem cell biology and regenerative medicine-remains fragmented, hindering interdisciplinary integration and translational progress. To address this ga…",
+          "score": 4.195,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 1.7,
+            "venue": 0.0,
+            "recency": 1.495,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 1.7
+          },
+          "signal_classes": [
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42461382",
+          "title": "Development and internal validation of an interpretable machine learning model using routine laboratory data for systemic sclerosis-associated pulmonary arterial hypertension.",
+          "authors": "Yunchao Zhang, Siyu Feng, Yonglin Zhang, Jiesi Luo",
+          "journal": "Rheumatology international",
+          "pubdate": "2026-07-16",
+          "pubdate_utc": "2026-07-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42461382/",
+          "abstract_snippet": "This study aimed to develop and validate an interpretable machine learning (ML) model using routine laboratory data to support clinical decision-making and deliver personalized care-with a specific focus on optimizing the utilization of diagnostic resources fo…",
           "score": 4.186,
           "score_components": {
             "theme_priority": 1.0,
@@ -440,127 +545,6 @@
           "signal_classes": [
             "Methods"
           ],
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "42457754",
-          "title": "Predicting premature failure of quantum cascade lasers with different quantum designs using active machine learning.",
-          "authors": "Ahmet Cagri Aydinkarahaliloglu, Arifin Nur Alif, Xiaojun Wang, Mariano Troccoli, Anthony J Hoffman",
-          "journal": "Scientific reports",
-          "pubdate": "2026-07-15",
-          "pubdate_utc": "2026-07-15T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42457754/",
-          "abstract_snippet": "Mid-infrared quantum cascade lasers are crucial for a variety of applications, including fundamental research, industry, and homeland security. While laser lifetimes can exceed 100,000 h, there is an initial period of premature failure (e.g., less than 400 h o…",
-          "score": 4.186,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 1.7,
-            "venue": 0.0,
-            "recency": 1.486,
-            "cross_domain": 0.0
-          },
-          "signal_components": {
-            "methods": 1.7
-          },
-          "signal_classes": [
-            "Methods"
-          ],
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "42400881",
-          "title": "Statistical AI Enables Precise Screening of Multielement Catalysts.",
-          "authors": "Chengbo Li, Mingzhe Li, Nian Ran, Yuzhen Lv, Wei Zhou, Jianjun Liu",
-          "journal": "Journal of the American Chemical Society",
-          "pubdate": "2026-07-04",
-          "pubdate_utc": "2026-07-04T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42400881/",
-          "abstract_snippet": "The disparity between the complex structures of synthesized materials and their simplified computational models leads to deviations between theoretically calculated and experimental performance. To narrow this gap, we introduce the statistical descriptor φ, wh…",
-          "score": 4.095,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 1.7,
-            "venue": 0.0,
-            "recency": 1.395,
-            "cross_domain": 0.0
-          },
-          "signal_components": {
-            "methods": 1.7
-          },
-          "signal_classes": [
-            "Methods"
-          ],
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "42378237",
-          "title": "Machine Learning-Assisted Rapid Scalable Synthesis and Assembly Evolution of Lithographic Metal-Oxo Clusters.",
-          "authors": "Huifang Zhao, Siming Qi, Zuohu Zhou, Chen Zhu, Jin-Cheng Liu, Yihan Yun",
-          "journal": "Journal of the American Chemical Society",
-          "pubdate": "2026-06-30",
-          "pubdate_utc": "2026-06-30T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42378237/",
-          "abstract_snippet": "The controllable synthesis of metal-oxo clusters (MOCs) is often limited by competing reaction pathways and strongly coupled variables, which hinder the synthetic efficiency and scalability. Here, we develop a machine-learning-assisted reaction-space optimizat…",
-          "score": 4.063,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 1.7,
-            "venue": 0.0,
-            "recency": 1.363,
-            "cross_domain": 0.0
-          },
-          "signal_components": {
-            "methods": 1.7
-          },
-          "signal_classes": [
-            "Methods"
-          ],
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "42372267",
-          "title": "High-Throughput Screening and Mechanistic Elucidation of RhlA Mutants for Enhanced Rhamnolipid Biosynthesis Guided by EGCA-Net and Molecular Dynamics Simulations.",
-          "authors": "Dongpei Wang, Chunming Xu, Yufei Yang, Ziyou Jiang, Xinyue Wang, Yujing Zhao",
-          "journal": "Journal of agricultural and food chemistry",
-          "pubdate": "2026-06-29",
-          "pubdate_utc": "2026-06-29T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42372267/",
-          "abstract_snippet": "RhlA serves as the crucial rate-limiting enzyme in rhamnolipid biosynthesis. In this study, we developed a fusion model named EGCA-Net, integrating a cross-attention mechanism with ESM-2 and graph convolutional network (GCN), to identify candidate RhlA mutants…",
-          "score": 4.055,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 1.7,
-            "venue": 0.0,
-            "recency": 1.355,
-            "cross_domain": 0.0
-          },
-          "signal_components": {
-            "methods": 1.7
-          },
-          "signal_classes": [
-            "Methods"
-          ],
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "42437498",
-          "title": "Bioinspired synthetic strategies for enhanced cell membrane interactions for targeted delivery of biomacromolecules.",
-          "authors": "Nicole Henry, Apanpreet Kaur, Rongjun Chen",
-          "journal": "Expert opinion on drug delivery",
-          "pubdate": "2026-07-15",
-          "pubdate_utc": "2026-07-15T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42437498/",
-          "abstract_snippet": "Biomacromolecular therapeutics, including proteins and nucleic acids, offer high specificity but face major delivery challenges of stability, cellular uptake, and intracellular trafficking. Synthetic bioinspired strategies, ranging from systems that borrow bro…",
-          "score": 2.486,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 0.0,
-            "venue": 0.0,
-            "recency": 1.486,
-            "cross_domain": 0.0
-          },
-          "signal_components": {},
-          "signal_classes": [],
           "theme": "ML for evolution & pathogens"
         }
       ]
