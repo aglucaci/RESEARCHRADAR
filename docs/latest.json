@@ -1,6 +1,6 @@
 {
-  "generated_at_local": "2026-07-20 15:00:02",
-  "generated_at_utc": "2026-07-20 15:00:12",
+  "generated_at_local": "2026-07-20 15:44:24",
+  "generated_at_utc": "2026-07-20 15:44:32",
   "days": 1,
   "window_utc": {
     "mindate": "2026/07/19",
@@ -180,12 +180,12 @@
           "pubdate_utc": "2026-07-20T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42472977/",
           "abstract_snippet": "Accurate identification of rice diseases from field images is critical for crop health monitoring and sustainable agriculture, particularly in low-resource environments. However, most deep learning approaches depend on large-scale labeled datasets and pretrain…",
-          "score": 9.995,
+          "score": 9.994,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 6.0,
             "venue": 0.0,
-            "recency": 1.495,
+            "recency": 1.494,
             "cross_domain": 1.5
           },
           "signal_components": {
@@ -207,12 +207,12 @@
           "pubdate_utc": "2026-07-20T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42473750/",
           "abstract_snippet": "Preeclampsia (PE) is a severe pregnancy-specific complication characterized by new-onset hypertension and proteinuria after 20 weeks of gestation, which can cause multi-organ damage and life-threatening outcomes for both mothers and foetuses. Its pathogenesis …",
-          "score": 8.095,
+          "score": 8.094,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 4.1,
             "venue": 0.0,
-            "recency": 1.495,
+            "recency": 1.494,
             "cross_domain": 1.5
           },
           "signal_components": {

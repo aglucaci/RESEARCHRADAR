@@ -1,6 +1,6 @@
 # ETHER scientific literature radar
 
-**Updated:** 2026-07-20 15:00:02  
+**Updated:** 2026-07-20 15:44:24  
 **Window:** last 1 day(s)  
 **Ranking:** Research Relevance Score (topic priority + research signals + source metadata + recency + cross-domain bridge)
 
@@ -45,12 +45,12 @@ _No new items in this window._
 
 - **[A hierarchical prototype-graph with optimal-transport matching for few-shot rice disease recognition.](https://pubmed.ncbi.nlm.nih.gov/42472977/)**  
   M D Tanzimul Islam, Jobayar Alom, Masuduzzaman Niloy, Md Shafiq Ullah, Md Zakir Hossain Zamil, Md Jakir Hossen · Scientific reports · 2026-07-20  
-  _Research Relevance Score:_ `9.995`  
+  _Research Relevance Score:_ `9.994`  
   _Signals:_ Viral evolution, Methods  
   _Accurate identification of rice diseases from field images is critical for crop health monitoring and sustainable agriculture, particularly in low-resource environments. However, most deep learning approaches depend on large-scale labeled datasets and pretrain…_
 - **[Multiomics integrative bioinformatics analysis of gene expression characteristics and molecular mechanisms in preeclampsia placental tissue.](https://pubmed.ncbi.nlm.nih.gov/42473750/)**  
   Ni Li, Lin Tian, Haiyun Wei · Artificial cells, nanomedicine, and biotechnology · 2026-07-20  
-  _Research Relevance Score:_ `8.095`  
+  _Research Relevance Score:_ `8.094`  
   _Signals:_ Cancer evolution, Methods  
   _Preeclampsia (PE) is a severe pregnancy-specific complication characterized by new-onset hypertension and proteinuria after 20 weeks of gestation, which can cause multi-organ damage and life-threatening outcomes for both mothers and foetuses. Its pathogenesis …_
 - **[Intelligent Orthopedics: Machine Learning in Diagnosis of Bone Disease, Implants, and Bone Health Monitoring.](https://pubmed.ncbi.nlm.nih.gov/42473118/)**  
