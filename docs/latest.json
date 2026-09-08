@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-09-07 18:28:24",
-  "generated_at_utc": "2026-09-07 18:28:33",
+  "generated_at_local": "2026-09-08 16:52:47",
+  "generated_at_utc": "2026-09-08 16:52:56",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/09/06",
-    "maxdate": "2026/09/07"
+    "mindate": "2026/09/07",
+    "maxdate": "2026/09/08"
   },
   "ranking": "research_relevance_score(topic_priority + research_signal + source_metadata + recency + cross_domain)",
   "signal_ontology": {
@@ -127,36 +127,8 @@
     {
       "label": "Recombination & mosaicism",
       "query": "(((recombination OR \"mosaic genome\" OR breakpoint OR \"gene conversion\") AND (virus OR virome OR pathogen)) OR ((RDP OR GARD OR \"recombination detection\") AND (sequence OR alignment))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "42701968",
-          "title": "A python based automated computational framework to classify and comparative genomics analysis of the global diversity of chili leaf curl virus (ChiLCV) strains to understand virus host interactions.",
-          "authors": "Ifra Aslam, Ambreen Ahmed",
-          "journal": "Archives of virology",
-          "pubdate": "2026-09-06",
-          "pubdate_utc": "2026-09-06T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42701968/",
-          "abstract_snippet": "Chili leaf curl virus (ChiLCV) is a Begomovirus chillicapsici that is one of the most devastating viruses impacted on the production of chili in the world, especially in South Asia. In the present study, we combined high-throughput computational genomics with …",
-          "score": 8.485,
-          "score_components": {
-            "theme_priority": 1.2,
-            "research_signal": 4.3,
-            "venue": 0.0,
-            "recency": 1.485,
-            "cross_domain": 1.5
-          },
-          "signal_components": {
-            "viral_evolution": 2.6,
-            "methods": 1.7
-          },
-          "signal_classes": [
-            "Viral evolution",
-            "Methods"
-          ],
-          "theme": "Recombination & mosaicism"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "Phylodynamics & transmission",
@@ -188,29 +160,27 @@
       "count": 1,
       "items": [
         {
-          "pmid": "42701968",
-          "title": "A python based automated computational framework to classify and comparative genomics analysis of the global diversity of chili leaf curl virus (ChiLCV) strains to understand virus host interactions.",
-          "authors": "Ifra Aslam, Ambreen Ahmed",
-          "journal": "Archives of virology",
-          "pubdate": "2026-09-06",
-          "pubdate_utc": "2026-09-06T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42701968/",
-          "abstract_snippet": "Chili leaf curl virus (ChiLCV) is a Begomovirus chillicapsici that is one of the most devastating viruses impacted on the production of chili in the world, especially in South Asia. In the present study, we combined high-throughput computational genomics with …",
-          "score": 8.385,
+          "pmid": "42704645",
+          "title": "Phylogrouping and genotyping of mcr-1 postives avian pathogenic Escherichia coli isolates in Algerian poultry farms.",
+          "authors": "Amira Djouzi, Abdelheq Barberis, Meriem Derkaoui, Ismail Lafri, Hamza Ait Seddik, Mohamed Sebaihia",
+          "journal": "Veterinaria italiana",
+          "pubdate": "2026-09-07",
+          "pubdate_utc": "2026-09-07T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42704645/",
+          "abstract_snippet": "Colibacillosis is a highly prevalent bacterial disease in poultry, resulting in the widespread use of antibiotics for both curative and preventive purposes. Consequently, avian pathogenic Escherichia coli (APEC) continues to act as a reservoir for antibiotic r…",
+          "score": 4.785,
           "score_components": {
             "theme_priority": 1.1,
-            "research_signal": 4.3,
+            "research_signal": 2.2,
             "venue": 0.0,
             "recency": 1.485,
-            "cross_domain": 1.5
+            "cross_domain": 0.0
           },
           "signal_components": {
-            "viral_evolution": 2.6,
-            "methods": 1.7
+            "emerging_threat": 2.2
           },
           "signal_classes": [
-            "Viral evolution",
-            "Methods"
+            "Emerging threat"
           ],
           "theme": "Atlases, compendia, reference resources"
         }
@@ -219,13 +189,35 @@
     {
       "label": "Metagenomics benchmarking & pipelines",
       "query": "((metagenomics AND (benchmark* OR pipeline OR \"best practices\" OR reproducible OR workflow)) OR ((Kraken2 OR MetaPhlAn OR Bracken OR Centrifuge OR Kaiju) AND (benchmark* OR evaluation))) AND (benchmark* OR workflow OR pipeline OR Snakemake OR Nextflow OR WDL) NOT (case report OR randomized OR psychology)",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "pmid": "42705234",
+          "title": "ON-Time enables rapid microbiome sequencing and analysis for precision medicine.",
+          "authors": "Colin MacKenzie, Heewon Seo, Jared Schlechte, Aydin Herik, Ish Bains, Ian-Ling Yu",
+          "journal": "Cell reports methods",
+          "pubdate": "2026-09-07",
+          "pubdate_utc": "2026-09-07T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42705234/",
+          "abstract_snippet": "Clinical application of microbiome-guided therapies in the intensive care unit (ICU) requires a method to rapidly analyze patient microbiomes to guide urgent treatment decisions. Conventional microbiome sequencing and analysis methods require long turnaround t…",
+          "score": 2.535,
+          "score_components": {
+            "theme_priority": 1.05,
+            "research_signal": 0.0,
+            "venue": 0.0,
+            "recency": 1.485,
+            "cross_domain": 0.0
+          },
+          "signal_components": {},
+          "signal_classes": [],
+          "theme": "Metagenomics benchmarking & pipelines"
+        }
+      ]
     },
     {
       "label": "ML for evolution & pathogens",
       "query": "(((\"machine learning\" OR \"deep learning\" OR transformer) AND (virus OR pathogen OR evolution OR phylogeny)) OR ((\"protein language model\" OR ESM) AND (mutation OR evolution OR fitness))) AND (\"machine learning\" OR \"deep learning\" OR transformer OR \"foundation model\" OR \"protein language model\" OR ESM) NOT (case report OR randomized OR psychology)",
-      "count": 5,
+      "count": 12,
       "items": [
         {
           "pmid": "42704107",
@@ -236,12 +228,12 @@
           "pubdate_utc": "2026-09-07T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42704107/",
           "abstract_snippet": "AbstractWastewater-based surveillance (WBS) has become an important public-health tool for tracking community-level circulation of emerging and re-emerging pathogens, but wastewater measurements are not directly interpretable public-health indicators. Signals …",
-          "score": 10.293,
+          "score": 10.285,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 6.3,
             "venue": 0.0,
-            "recency": 1.493,
+            "recency": 1.485,
             "cross_domain": 1.5
           },
           "signal_components": {
@@ -257,20 +249,20 @@
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "42412411",
-          "title": "Machine-Learning-Enabled Rapid Evolution of Photoenzymes for the Asymmetric Synthesis of gem-Difluorophosphonates.",
-          "authors": "Hongkui Wang, Jiafan Xu, Jiahai Zhou, Yang Gu",
-          "journal": "Angewandte Chemie (International ed. in English)",
-          "pubdate": "2026-07-07",
-          "pubdate_utc": "2026-07-07T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42412411/",
-          "abstract_snippet": "gem-Difluorophosphonates are pivotal structural motifs in pharmaceuticals and bioactive molecules. While photoenzymatic catalysis provides a powerful platform to overcome the challenges of enantioselective synthesis, engineering enzymes for non-natural transfo…",
-          "score": 7.844,
+          "pmid": "42705497",
+          "title": "Rewiring CYP11A1-coupled electron transfer boosts de novo progesterone production in yeast.",
+          "authors": "Xuqian Fan, Rongxin Zhang, Gen Li, Kaiyu Ma, Qilong Wen, Feiyu Fan",
+          "journal": "Metabolic engineering",
+          "pubdate": "2026-09-07",
+          "pubdate_utc": "2026-09-07T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42705497/",
+          "abstract_snippet": "CYP11A1-mediated catalysis is the rate-limiting step in the de novo biosynthesis of progesterone in yeast, and its relatively low catalytic efficiency largely results from insufficient electron transfer efficiency. In this study, we addressed this bottleneck b…",
+          "score": 8.285,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 4.3,
             "venue": 0.0,
-            "recency": 1.044,
+            "recency": 1.485,
             "cross_domain": 1.5
           },
           "signal_components": {
@@ -284,27 +276,206 @@
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "42309318",
-          "title": "Adaptive social distancing under variant-specific transmission dynamics in a spatial SEIIR model with reinforcement learning.",
-          "authors": "Minchan Choi, Hyosun Lee, Arsen Abdulali, Sunmi Lee",
-          "journal": "Journal of theoretical biology",
-          "pubdate": "2026-06-17",
-          "pubdate_utc": "2026-06-17T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42309318/",
-          "abstract_snippet": "Epidemic control is inherently dynamic because viral transmissibility and human behavior co-evolve and vary across spatial scales. Consequently, identical intervention strategies can yield divergent outcomes depending on regional connectivity, temporal changes…",
-          "score": 4.53,
+          "pmid": "42696540",
+          "title": "Systematic discovery of circular permutations across the protein universe using CIRPIN.",
+          "authors": "Aiden R Kolodziej, S Mazdak Abulnaga, Sergey Ovchinnikov",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "pubdate": "2026-09-04",
+          "pubdate_utc": "2026-09-04T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42696540/",
+          "abstract_snippet": "Protein structure search has been revolutionized by deep learning methods that can rapidly search massive databases. However, current structure search tools often miss proteins related by topological rearrangements, particularly circular permutation, wherein p…",
+          "score": 8.26,
           "score_components": {
             "theme_priority": 1.0,
-            "research_signal": 2.6,
+            "research_signal": 4.3,
             "venue": 0.0,
-            "recency": 0.93,
+            "recency": 1.46,
+            "cross_domain": 1.5
+          },
+          "signal_components": {
+            "viral_evolution": 2.6,
+            "methods": 1.7
+          },
+          "signal_classes": [
+            "Viral evolution",
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42685081",
+          "title": "From wild to domestic: Single-cell transcriptomic perspectives on hippocampal regulation and evolution.",
+          "authors": "Li-Rong Hu, Yun-Mei Wang, Jing-Yi Xie, Li-Jiao Gu, Si Si, Zheng-Xi Liu",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "pubdate": "2026-09-02",
+          "pubdate_utc": "2026-09-02T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42685081/",
+          "abstract_snippet": "How domestication shapes brain evolution remains an open question. In this study, we integrated single-nucleus RNA sequencing (snRNA-seq), population genomics, and machine learning to investigate the hippocampal evolution under domestication. Across-species co…",
+          "score": 8.043,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 4.1,
+            "venue": 0.0,
+            "recency": 1.443,
+            "cross_domain": 1.5
+          },
+          "signal_components": {
+            "cancer_evolution": 2.4,
+            "methods": 1.7
+          },
+          "signal_classes": [
+            "Cancer evolution",
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42706513",
+          "title": "Enhancing detection of polygenic adaptation: a comparative study of machine learning and statistical approaches using simulated evolve-and-resequence data.",
+          "authors": "Cosima Caliendo, Susanne Gerber, Markus Pfenninger",
+          "journal": "BMC genomics",
+          "pubdate": "2026-09-07",
+          "pubdate_utc": "2026-09-07T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42706513/",
+          "abstract_snippet": "Detecting signals of polygenic adaptation remains a significant challenge in population genomics, as traditional methods often struggle to identify the associated subtle, multi-locus allele-frequency shifts. Here, we introduced and tested several novel approac…",
+          "score": 5.885,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 3.4,
+            "venue": 0.0,
+            "recency": 1.485,
             "cross_domain": 0.0
           },
           "signal_components": {
-            "viral_evolution": 2.6
+            "methods": 3.4
           },
           "signal_classes": [
-            "Viral evolution"
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42708699",
+          "title": "From Enhanced Sampling to Human-Readable Representations of Protein Dynamics.",
+          "authors": "Souvik Mondal, Michael A Sauer, Matthias Heyden",
+          "journal": "Journal of chemical theory and computation",
+          "pubdate": "2026-09-08",
+          "pubdate_utc": "2026-09-08T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42708699/",
+          "abstract_snippet": "Understanding protein conformational dynamics is essential for elucidating biological function but remains challenging due to the wide range of time scales and the complexity of collective motions. Enhanced sampling methods overcome time scale limitations of c…",
+          "score": 4.194,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 1.7,
+            "venue": 0.0,
+            "recency": 1.494,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 1.7
+          },
+          "signal_classes": [
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42706448",
+          "title": "Species-level identification of Nocardia spp. from clinical samples via intelligent analysis of Raman spectroscopic fingerprints.",
+          "authors": "Jie Chen, Sufei Pan, Ziyi Zhou, Yunyun Xie, Liyan Zhang, Changjie Gao",
+          "journal": "World journal of microbiology & biotechnology",
+          "pubdate": "2026-09-08",
+          "pubdate_utc": "2026-09-08T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42706448/",
+          "abstract_snippet": "Nocardia spp. are clinically opportunistic pathogens that are frequently underdiagnosed. They often lead to severe clinical consequences. These infections are often invasive, involving the lungs, nervous system, skin, and soft tissues. Different Nocardia spp. …",
+          "score": 4.194,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 1.7,
+            "venue": 0.0,
+            "recency": 1.494,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 1.7
+          },
+          "signal_classes": [
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42700158",
+          "title": "Darwinian nanomedicine: artificial intelligence-driven evolutionary drug delivery for adaptive and precision therapeutics.",
+          "authors": "Chetana Krushna Belkare, Omkar Vishnu Daware",
+          "journal": "Drug development and industrial pharmacy",
+          "pubdate": "2026-09-08",
+          "pubdate_utc": "2026-09-08T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42700158/",
+          "abstract_snippet": "This review presents Darwinian nanomedicine as an artificial intelligence (AI)-enabled drug delivery strategy that applies Darwinian evolutionary principles as a computational and engineering analogy. Rather than implying biological evolution of nanoparticles,…",
+          "score": 4.194,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 1.7,
+            "venue": 0.0,
+            "recency": 1.494,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 1.7
+          },
+          "signal_classes": [
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42706998",
+          "title": "Global transitions of concomitant patterns and risk factors of cardio-renal-metabolic conditions among the elderly.",
+          "authors": "Shuzhen Zhao, Chengnan Guo, Xin Zhang, Yi Li, Jingkun Hu, Jiayi Huang",
+          "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
+          "pubdate": "2026-09-07",
+          "pubdate_utc": "2026-09-07T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42706998/",
+          "abstract_snippet": "Cardio-renal-metabolic (CRM) diseases-including ischemic heart disease (IHD), stroke, type 2 diabetes (T2DM), and chronic kidney disease (CKD)-pose major threats to healthy aging. Yet the co-occurrence and evolution of these conditions across regions, and thei…",
+          "score": 4.185,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 1.7,
+            "venue": 0.0,
+            "recency": 1.485,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 1.7
+          },
+          "signal_classes": [
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42705366",
+          "title": "Advances and challenges in building microbial cell factories for phytohormone biomanufacturing toward sustainable agriculture.",
+          "authors": "Liangliang Fan, Kaifeng Wang, Lu Lin, Jian Gao, Tian-Qiong Shi, Mei-Li Sun",
+          "journal": "Biotechnology advances",
+          "pubdate": "2026-09-07",
+          "pubdate_utc": "2026-09-07T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42705366/",
+          "abstract_snippet": "The long-term and extensive use of conventional chemical pesticides has led to a series of problems, including pesticide resistance in plant pathogens and insect pests, environmental pollution, and risks to the safety of agricultural products. These challenges…",
+          "score": 4.185,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 1.7,
+            "venue": 0.0,
+            "recency": 1.485,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 1.7
+          },
+          "signal_classes": [
+            "Methods"
           ],
           "theme": "ML for evolution & pathogens"
         },
@@ -317,12 +488,12 @@
           "pubdate_utc": "2026-09-07T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/42678197/",
           "abstract_snippet": "A systematic many-body expansion (MBE) analysis is presented for 1169 (H2O)4-23 cluster structures at the B3LYP-D3(BJ)/def2-TZVP level, with full enumeration of all monomer, dimer, and trimer subsystems. The per-molecule interaction energy converges toward the…",
-          "score": 4.193,
+          "score": 4.185,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 1.7,
             "venue": 0.0,
-            "recency": 1.493,
+            "recency": 1.485,
             "cross_domain": 0.0
           },
           "signal_components": {
@@ -334,20 +505,20 @@
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "42701919",
-          "title": "Blood-Brain Barrier Regulation: Evolving From Classic Strategies to Electrochemical Ion and Reactive Oxygen Species Control.",
-          "authors": "Xiaokang Hu, Caiyu Liu, Meijun Pang, Zhiyuan Shi, Dong Ming, Xiuyun Liu",
-          "journal": "Advanced healthcare materials",
-          "pubdate": "2026-09-06",
-          "pubdate_utc": "2026-09-06T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42701919/",
-          "abstract_snippet": "The blood-brain barrier (BBB), while indispensable for maintaining central nervous system (CNS) homeostasis, constitutes the principal impediment to effective therapeutic delivery for neurodegenerative disorders, particularly hindering spatially resolved modul…",
-          "score": 4.185,
+          "pmid": "42685073",
+          "title": "Rapidly evolving aphid gall effector proteins exhibit saposin-like folds.",
+          "authors": "Fatema Bhinderwala, Aishwarya Korgaonkar, Kota Gopalakrishna, Thomas C Mathers, Shuji Shigenobu, J Fernando Bazan",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "pubdate": "2026-09-02",
+          "pubdate_utc": "2026-09-02T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42685073/",
+          "abstract_snippet": "Many insects manipulate plants by injecting effector proteins. In one extreme example of this molecular \"hijacking,\" Hormaphis cornu aphids inject bicycle proteins into Hamamelis virginiana, contributing to the development of novel organs called galls. Bicycle…",
+          "score": 4.143,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 1.7,
             "venue": 0.0,
-            "recency": 1.485,
+            "recency": 1.443,
             "cross_domain": 0.0
           },
           "signal_components": {
