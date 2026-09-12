@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-09-11 16:47:51",
-  "generated_at_utc": "2026-09-11 16:48:03",
+  "generated_at_local": "2026-09-12 15:54:21",
+  "generated_at_utc": "2026-09-12 15:54:32",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/09/10",
-    "maxdate": "2026/09/11"
+    "mindate": "2026/09/11",
+    "maxdate": "2026/09/12"
   },
   "ranking": "research_relevance_score(topic_priority + research_signal + source_metadata + recency + cross_domain)",
   "signal_ontology": {
@@ -121,42 +121,40 @@
     {
       "label": "Cancer evolution & somatic selection",
       "query": "(((\"cancer evolution\" OR \"tumor evolution\" OR \"somatic evolution\" OR \"clonal evolution\") AND (genomics OR sequencing OR phylogen* OR \"single-cell\")) OR ((cancer OR tumor OR lymphoma OR leukemia) AND (\"positive selection\" OR \"clonal selection\" OR \"driver mutation\" OR \"dN/dS\" OR \"selection inference\")) OR ((\"mutational signature\" OR \"mutational signatures\") AND (cancer OR tumor) AND (evolution OR selection OR phylogeny))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "pmid": "42728335",
+          "title": "Retention of a single Cenp-C gene in different syntenic locations in the montium group of Drosophila species.",
+          "authors": "Rafaella F Soares, Ching-Ho Chang, Leonardo B Koerich, Harmit S Malik, Gustavo C S Kuhn",
+          "journal": "Heredity",
+          "pubdate": "2026-09-11",
+          "pubdate_utc": "2026-09-11T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42728335/",
+          "abstract_snippet": "Chromosome segregation in eukaryotes requires the orchestrated interaction of chromosomes with microtubules, mediated by the kinetochore multiprotein complex that assembles on chromosomal regions known as centromeres. In most eukaryotes, CenH3 and Cenp-C centr…",
+          "score": 5.686,
+          "score_components": {
+            "theme_priority": 1.2,
+            "research_signal": 3.0,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "selection": 3.0
+          },
+          "signal_classes": [
+            "Selection"
+          ],
+          "theme": "Cancer evolution & somatic selection"
+        }
+      ]
     },
     {
       "label": "Recombination & mosaicism",
       "query": "(((recombination OR \"mosaic genome\" OR breakpoint OR \"gene conversion\") AND (virus OR virome OR pathogen)) OR ((RDP OR GARD OR \"recombination detection\") AND (sequence OR alignment))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "42312839",
-          "title": "Coxsackievirus A6 on the rise: epidemiology, pathogenicity, evolutionary dynamics, and antiviral strategy.",
-          "authors": "Xianfeng Zhou, Fenglan He, Ziqi Lin, Weijie Wen, Shu Yang, Tielong Xu",
-          "journal": "Clinical microbiology reviews",
-          "pubdate": "2026-06-18",
-          "pubdate_utc": "2026-06-18T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42312839/",
-          "abstract_snippet": "SUMMARYIn recent years, coxsackievirus A6 (CVA6) has become a predominant cause of hand, foot, and mouth disease (HFMD) worldwide, surpassing enterovirus A71 (EV-A71) and CVA16. The rise of CVA6 is of particular public health concern due to its association wit…",
-          "score": 10.614,
-          "score_components": {
-            "theme_priority": 1.2,
-            "research_signal": 7.0,
-            "venue": 0.0,
-            "recency": 0.914,
-            "cross_domain": 1.5
-          },
-          "signal_components": {
-            "viral_evolution": 2.6,
-            "emerging_threat": 4.4
-          },
-          "signal_classes": [
-            "Viral evolution",
-            "Emerging threat"
-          ],
-          "theme": "Recombination & mosaicism"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "Phylodynamics & transmission",
@@ -185,105 +183,39 @@
     {
       "label": "Atlases, compendia, reference resources",
       "query": "(((atlas OR database OR compendium OR \"reference catalog\" OR resource) AND (virome OR microbiome OR pathogen)) OR ((\"large-scale\" OR global) AND (virome OR microbiome) AND (metadata OR harmonization))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "42720732",
-          "title": "Liana species and fertilization shape rhizosphere bacterial communities in abandoned iron mines.",
-          "authors": "Jianting Ouyang, Mingyu Xu, Beiling Sun, Mianyi Huang, Acong Chen",
-          "journal": "Archives of microbiology",
-          "pubdate": "2026-09-10",
-          "pubdate_utc": "2026-09-10T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42720732/",
-          "abstract_snippet": "Climbing plants, with their vigorous root systems, strong adaptability, large biomass, and wide range of uses, hold great potential in mine soil restoration. To explore the ecological restoration effects of different liana species, the Longtie mining area in L…",
-          "score": 5.185,
-          "score_components": {
-            "theme_priority": 1.1,
-            "research_signal": 2.6,
-            "venue": 0.0,
-            "recency": 1.485,
-            "cross_domain": 0.0
-          },
-          "signal_components": {
-            "viral_evolution": 2.6
-          },
-          "signal_classes": [
-            "Viral evolution"
-          ],
-          "theme": "Atlases, compendia, reference resources"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "Metagenomics benchmarking & pipelines",
       "query": "((metagenomics AND (benchmark* OR pipeline OR \"best practices\" OR reproducible OR workflow)) OR ((Kraken2 OR MetaPhlAn OR Bracken OR Centrifuge OR Kaiju) AND (benchmark* OR evaluation))) AND (benchmark* OR workflow OR pipeline OR Snakemake OR Nextflow OR WDL) NOT (case report OR randomized OR psychology)",
-      "count": 3,
+      "count": 1,
       "items": [
         {
-          "pmid": "42545024",
-          "title": "DNA sequencing for microbial surveillance in cystic fibrosis airways: advances, challenges, and clinical translation.",
-          "authors": "Jessica A P Carlson-Jones, Thomas R Goddard, Bhavya Papudeshi, Vijini Mallawaarachchi, Katrine L Whiteson, Morgyn S Warner",
-          "journal": "Clinical microbiology reviews",
-          "pubdate": "2026-08-03",
-          "pubdate_utc": "2026-08-03T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42545024/",
-          "abstract_snippet": "SUMMARYDNA sequencing has revolutionized microbial surveillance in cystic fibrosis (CF), transforming pathogen identification from culture-dependent to total microbial community identification using molecular-based approaches. Techniques such as 16S rRNA gene …",
-          "score": 4.643,
+          "pmid": "42727575",
+          "title": "Metax enables accurate cross-domain taxonomic profiling of metagenomes.",
+          "authors": "Zhi-Luo Deng, Nasim Safaei, Alice Carolyn McHardy",
+          "journal": "Cell",
+          "pubdate": "2026-09-11",
+          "pubdate_utc": "2026-09-11T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42727575/",
+          "abstract_snippet": "Taxonomic profiling is fundamental to microbiome research, yet achieving high species-level accuracy remains challenging for complex communities that span bacteria, viruses, eukaryotes, and archaea, and these limitations are exacerbated in low-biomass, host-do…",
+          "score": 8.136,
           "score_components": {
             "theme_priority": 1.05,
-            "research_signal": 2.4,
+            "research_signal": 4.1,
             "venue": 0.0,
-            "recency": 1.193,
-            "cross_domain": 0.0
+            "recency": 1.486,
+            "cross_domain": 1.5
           },
           "signal_components": {
-            "metagenomics_surveillance": 2.4
+            "metagenomics_surveillance": 2.4,
+            "methods": 1.7
           },
           "signal_classes": [
-            "Metagenomics / surveillance"
+            "Metagenomics / surveillance",
+            "Methods"
           ],
-          "theme": "Metagenomics benchmarking & pipelines"
-        },
-        {
-          "pmid": "42720301",
-          "title": "When tests don't fit the rules: regulatory challenges for agnostic metagenomic next-generation sequencing in infectious diseases diagnostics.",
-          "authors": "Nick P G Gauthier, Vishal Kapoor, David C Gaston, Neha Prasad, Precious Nwaobia, Colleen S Kraft",
-          "journal": "Journal of clinical microbiology",
-          "pubdate": "2026-09-10",
-          "pubdate_utc": "2026-09-10T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42720301/",
-          "abstract_snippet": "Metagenomic next-generation sequencing (mNGS) enables agnostic detection of bacteria, viruses, fungi, and parasites from clinical specimens. Patient access is restricted due to their current regulatory classification as Laboratory Developed Tests, which are of…",
-          "score": 2.535,
-          "score_components": {
-            "theme_priority": 1.05,
-            "research_signal": 0.0,
-            "venue": 0.0,
-            "recency": 1.485,
-            "cross_domain": 0.0
-          },
-          "signal_components": {},
-          "signal_classes": [],
-          "theme": "Metagenomics benchmarking & pipelines"
-        },
-        {
-          "pmid": "42535896",
-          "title": "Intra-amniotic infection: diagnosis, nomenclature, clinical significance, management, and microbiologic tools used for the diagnosis.",
-          "authors": "Pisut Pongchaikul, Puntabut Warintaksa, Piroon Jenjaroenpun, Anunya Opasawatchai, Rapeewan Settacomkul, Pornpun Vivithanaporn",
-          "journal": "Clinical microbiology reviews",
-          "pubdate": "2026-07-31",
-          "pubdate_utc": "2026-07-31T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42535896/",
-          "abstract_snippet": "SUMMARYIntra-amniotic infection is the main cause of spontaneous preterm birth and adverse maternal-fetal outcomes; therefore, rapid, robust, and accurate diagnosis remains a clinical priority. Conventional microbiological techniques, especially culture-based …",
-          "score": 2.222,
-          "score_components": {
-            "theme_priority": 1.05,
-            "research_signal": 0.0,
-            "venue": 0.0,
-            "recency": 1.172,
-            "cross_domain": 0.0
-          },
-          "signal_components": {},
-          "signal_classes": [],
           "theme": "Metagenomics benchmarking & pipelines"
         }
       ]
@@ -291,23 +223,48 @@
     {
       "label": "ML for evolution & pathogens",
       "query": "(((\"machine learning\" OR \"deep learning\" OR transformer) AND (virus OR pathogen OR evolution OR phylogeny)) OR ((\"protein language model\" OR ESM) AND (mutation OR evolution OR fitness))) AND (\"machine learning\" OR \"deep learning\" OR transformer OR \"foundation model\" OR \"protein language model\" OR ESM) NOT (case report OR randomized OR psychology)",
-      "count": 7,
+      "count": 2,
       "items": [
         {
-          "pmid": "42723179",
-          "title": "Engineered Transformer Base Editor with Enhanced Editing Efficiency.",
-          "authors": "Bowen Chen, Letong Liang, Rui Xu, Tianyi Wang, Hongyan Chen, Daru Lu",
-          "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
-          "pubdate": "2026-09-10",
-          "pubdate_utc": "2026-09-10T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42723179/",
-          "abstract_snippet": "Canonical cytosine base editors (CBEs) achieve precise C-to-T conversions without inducing DNA double-strand breaks (DSBs), yet their clinical potential remains hampered by substantial off-target (OT) mutations. The recently developed transformer base editor (…",
-          "score": 4.185,
+          "pmid": "42727989",
+          "title": "Evolving landscape of paediatric sepsis: progress, gaps and the next generation of tools.",
+          "authors": "Pamela Jump Salcedo, Daniel R Owens",
+          "journal": "Archives of disease in childhood",
+          "pubdate": "2026-09-11",
+          "pubdate_utc": "2026-09-11T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42727989/",
+          "abstract_snippet": "Paediatric sepsis remains a major cause of childhood mortality worldwide, despite substantial changes in its epidemiology, definitions and management over the past two decades. Progress has come from sharper criteria centred on organ dysfunction, prevention th…",
+          "score": 5.886,
+          "score_components": {
+            "theme_priority": 1.0,
+            "research_signal": 3.4,
+            "venue": 0.0,
+            "recency": 1.486,
+            "cross_domain": 0.0
+          },
+          "signal_components": {
+            "methods": 3.4
+          },
+          "signal_classes": [
+            "Methods"
+          ],
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "42726617",
+          "title": "Cancer-ACPNet: A Two-Stage ESM-2 and Capsule Network Framework for Anticancer Peptide Screening and Cancer-Type Activity Prediction.",
+          "authors": "Adeel Ashraf, Dong-Jun Yu",
+          "journal": "IEEE journal of biomedical and health informatics",
+          "pubdate": "2026-09-11",
+          "pubdate_utc": "2026-09-11T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/42726617/",
+          "abstract_snippet": "Anticancer peptides (ACPs) are being widely studied as potential peptide-based anticancer agents because of their ability to interact selectively with cancer cells. Despite this promise, computational identification of ACPs and prediction of their cancer-type …",
+          "score": 4.186,
           "score_components": {
             "theme_priority": 1.0,
             "research_signal": 1.7,
             "venue": 0.0,
-            "recency": 1.485,
+            "recency": 1.486,
             "cross_domain": 0.0
           },
           "signal_components": {
@@ -316,140 +273,6 @@
           "signal_classes": [
             "Methods"
           ],
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "42721486",
-          "title": "Health-Related Rumor Debunking on Sina Weibo in China (2009-2024): 15-Year Retrospective Infodemiology Study.",
-          "authors": "Yuan Fang, Chengwu He, Yejinxuan Hu, Xianyun Tian",
-          "journal": "Journal of medical Internet research",
-          "pubdate": "2026-09-10",
-          "pubdate_utc": "2026-09-10T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42721486/",
-          "abstract_snippet": "Understanding how health-related rumor debunking evolves and spreads on social media is critical for public health communication and policy. Existing research, however, has been largely crisis-centered-dominated by studies of specific events, such as the COVID…",
-          "score": 4.185,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 1.7,
-            "venue": 0.0,
-            "recency": 1.485,
-            "cross_domain": 0.0
-          },
-          "signal_components": {
-            "methods": 1.7
-          },
-          "signal_classes": [
-            "Methods"
-          ],
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "42721159",
-          "title": "A clinical scoring system for the early identification of superinfections in patients with severe fever with thrombocytopenia syndrome: An ambispective multicentre cohort study.",
-          "authors": "Yu-Yao Li, Jian-Kang Zhang, Chun Zhang, Zhi-Ping Pan, Xiao Liu, Meng-Yu Liu",
-          "journal": "PLoS neglected tropical diseases",
-          "pubdate": "2026-09-10",
-          "pubdate_utc": "2026-09-10T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42721159/",
-          "abstract_snippet": "Superinfection is a major contributor to mortality in patients with severe fever with thrombocytopenia syndrome (SFTS). However, early identification remains challenging because detection of the pathogen causing the superinfection is often delayed. This study …",
-          "score": 4.185,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 1.7,
-            "venue": 0.0,
-            "recency": 1.485,
-            "cross_domain": 0.0
-          },
-          "signal_components": {
-            "methods": 1.7
-          },
-          "signal_classes": [
-            "Methods"
-          ],
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "42724727",
-          "title": "Internal transcribed spacer (ITS) barcoding reveals species differentiation and evolutionary lineages of Trypanorhyncha (Cestoda) in teleosts imported to Jordan from the Mediterranean and Red Seas.",
-          "authors": "E Al-Khlifeh, A Hassanat, Y Al-Abdallat, M Maghaireh, M Al-Rahahleh",
-          "journal": "Helminthologia",
-          "pubdate": "2026-09-10",
-          "pubdate_utc": "2026-09-10T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42724727/",
-          "abstract_snippet": "Fish-borne trypanorhynch cestodes are socio-economically important marine parasites with veterinary and public health relevance, yet integrated molecular data from the eastern Mediterranean-Red Sea trans-boundary trading corridors remain scarce. This study uti…",
-          "score": 2.485,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 0.0,
-            "venue": 0.0,
-            "recency": 1.485,
-            "cross_domain": 0.0
-          },
-          "signal_components": {},
-          "signal_classes": [],
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "42723285",
-          "title": "De novo Genes in Plants: Origins, Mechanisms, and Functional Implications.",
-          "authors": "Zhihao Zuo, Rujia Chen, Yue Lu, Zefeng Yang",
-          "journal": "Plant communications",
-          "pubdate": "2026-09-10",
-          "pubdate_utc": "2026-09-10T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42723285/",
-          "abstract_snippet": "De novo genes originate from previously non-coding genomic regions. They provide an important source of lineage-specific innovation. In plants, these genes may contribute to adaptation, trait diversity and crop evolution. This review summarizes recent progress…",
-          "score": 2.485,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 0.0,
-            "venue": 0.0,
-            "recency": 1.485,
-            "cross_domain": 0.0
-          },
-          "signal_components": {},
-          "signal_classes": [],
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "42721204",
-          "title": "AET5: A transcriptome-guided molecular generation framework with contrastive self-supervised learning.",
-          "authors": "Zhikang Yuan, Xin Zhang, Gaoming Lin, Quan Zou, Subhashisa Swain, Yijie Ding",
-          "journal": "PLoS computational biology",
-          "pubdate": "2026-09-10",
-          "pubdate_utc": "2026-09-10T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42721204/",
-          "abstract_snippet": "Gene expression profiles capture system-level drug responses and offer a promising basis for de novo molecular generation. However, their application is limited by data sparsity and experimental noise, which hinder the reliable mapping between disease-associat…",
-          "score": 2.485,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 0.0,
-            "venue": 0.0,
-            "recency": 1.485,
-            "cross_domain": 0.0
-          },
-          "signal_components": {},
-          "signal_classes": [],
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "42717771",
-          "title": "A DeepMD-GNN Potential Reveals the Initiation Mechanism of a Trinitromethyl-Based Green Primary Explosive.",
-          "authors": "Zihao Wei, Zi Li, Huajie Song, Ziyu Hu, Xiaohong Shao",
-          "journal": "ACS applied materials & interfaces",
-          "pubdate": "2026-09-10",
-          "pubdate_utc": "2026-09-10T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/42717771/",
-          "abstract_snippet": "Trinitromethyl-based green explosives have garnered extensive research interest by virtue of their high mass density, superior energy density, favorable oxygen balance, and eco-friendly properties. However, the development of new energetic materials remains ch…",
-          "score": 2.485,
-          "score_components": {
-            "theme_priority": 1.0,
-            "research_signal": 0.0,
-            "venue": 0.0,
-            "recency": 1.485,
-            "cross_domain": 0.0
-          },
-          "signal_components": {},
-          "signal_classes": [],
           "theme": "ML for evolution & pathogens"
         }
       ]
